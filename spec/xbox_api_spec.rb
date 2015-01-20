@@ -1,22 +1,26 @@
 require 'spec_helper'
 
 
-describe XboxApi do
+describe XboxApi::Client do
     
   let(:client) {XboxApi::Client.new("42")}
   let(:gamer)  {client.gamer("audibleblink")}
 
-  describe XboxApi::Client do
+  context "#gamer" do 
 
-
-    context "#gamer" do 
-
-      it "returns a Gamer object" do
-        expect( client.gamer "audibleblink" ).to be_a_kind_of XboxApi::Gamer
-      end
-
+    xit "returns a Gamer object" do
+      # expect( client.gamer "audibleblink" ).to be_a_kind_of XboxApi::Gamer
     end
 
+  end
+end
+
+describe XboxApi::Gamer do
+
+  context "#presence" do 
+    xit "returns presence information" do
+      "must find a way to stub json response"
+    end
   end
 
 end
