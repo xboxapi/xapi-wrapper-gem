@@ -27,31 +27,23 @@ module XboxApi
     ENDPOINTS.each do |action|
       define_method( action ) do
         endpoint = "#{xuid}/#{__method__}"
-        get_with_token( endpoint )
+        client.fetch_body_and_parse( endpoint )
       end
     end
 
     def recent_activity
       endpoint = "#{xuid}/activity/recent"
-      get_with_token( endpoint )      
+      client.fetch_body_and_parse( endpoint )
     end
-
 
     private
 
-    attr_reader :client
+      attr_reader :client
 
-    def fetch_xuid
-      endpoint = "xuid/#{URI.encode(gamertag)}"
-      get_with_token(endpoint)
-    end
-
-    def get_with_token(endpoint)
-      request     = URI.parse("#{client.base_url}/#{endpoint}")
-      response    = open(request, "X-AUTH" => client.api_key)
-      response.read
-    end
-
+      def fetch_xuid
+        endpoint = "xuid/#{URI.encode(gamertag)}"
+        client.fetch_body_and_parse(endpoint)
+      end
   end
 
 end
