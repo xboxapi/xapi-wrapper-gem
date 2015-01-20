@@ -1,26 +1,45 @@
 require 'spec_helper'
+require 'vcr'
 
+describe "Gem" do
+
+let(:token)  {File.read('./.env').chomp.split(" ")[1]}
+let(:client) {XboxApi::Client.new(token)}
+let(:gamer)  do 
+  VCR.use_cassette("gamer") { client.gamer("audibleblink") }
+end
 
 describe XboxApi::Client do
-    
-  let(:client) {XboxApi::Client.new("42")}
-  let(:gamer)  {client.gamer("audibleblink")}
+  
 
   context "#gamer" do 
 
-    xit "returns a Gamer object" do
-      # expect( client.gamer "audibleblink" ).to be_a_kind_of XboxApi::Gamer
+    it "returns a Gamer object" do
+      expect( gamer ).to be_a_kind_of XboxApi::Gamer
     end
 
+  end
+
+  context "#calls_remaining" do 
+    it "return a hash with the correct info" do
+      VCR.use_cassette("calls_remaining") do
+        response = client.calls_remaining
+        expect(response).to be_a_kind_of Hash
+      end
+    end
   end
 end
 
 describe XboxApi::Gamer do
 
   context "#presence" do 
-    xit "returns presence information" do
-      "must find a way to stub json response"
+    it "returns a players presence info" do
+      VCR.use_cassette("presence") do
+        response = gamer.presence
+        expect(response).to be_a_kind_of Hash
+      end
     end
   end
+end
 
 end
