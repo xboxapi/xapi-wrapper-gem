@@ -1,0 +1,141 @@
+{
+  "Data": {
+    "TotalFriends": 8,
+    "TotalOnlineFriends": 0,
+    "TotalOfflineFriends": 8,
+    "Friends": [
+      {
+        "Gamertag": "cccav",
+        "AvatarSmall": "https:\/\/avatar-ssl.xboxlive.com\/avatar\/cccav\/avatarpic-s.png",
+        "AvatarLarge": "https:\/\/avatar-ssl.xboxlive.com\/avatar\/cccav\/avatarpic-l.png",
+        "GamerScore": 3520,
+        "IsOnline": false,
+        "PresenceInfo": {
+          "LastOnline": 1361044996,
+          "OnlineStatus": "Last seen 2\/16\/2013 playing LEGO\u00ae Star Wars\u00ae3 DEMO",
+          "Game": {
+            "Title": "LEGO\u00ae Star Wars\u00ae3 DEMO",
+            "Id": 1279363062,
+            "Url": "http:\/\/marketplace.xbox.com\/en-US\/Title\/1279363062"
+          }
+        }
+      },
+      {
+        "Gamertag": "Darth Randy BR",
+        "AvatarSmall": "https:\/\/avatar-ssl.xboxlive.com\/avatar\/Darth%20Randy%20BR\/avatarpic-s.png",
+        "AvatarLarge": "https:\/\/avatar-ssl.xboxlive.com\/avatar\/Darth%20Randy%20BR\/avatarpic-l.png",
+        "GamerScore": 54661,
+        "IsOnline": false,
+        "PresenceInfo": {
+          "LastOnline": 1361152914,
+          "OnlineStatus": "Last seen 2\/18\/2013 playing Xbox Dashboard",
+          "Game": {
+            "Title": "Xbox Dashboard",
+            "Id": 4294838225,
+            "Url": "http:\/\/marketplace.xbox.com\/en-US\/Title\/4294838225"
+          }
+        }
+      },
+      {
+        "Gamertag": "Hettfielder",
+        "AvatarSmall": "https:\/\/avatar-ssl.xboxlive.com\/global\/t.585708a2\/tile\/0\/18001",
+        "AvatarLarge": "https:\/\/avatar-ssl.xboxlive.com\/global\/t.585708a2\/tile\/0\/28001",
+        "GamerScore": 58771,
+        "IsOnline": false,
+        "PresenceInfo": {
+          "LastOnline": 1041379200,
+          "OnlineStatus": "Offline",
+          "Game": {
+            "Title": "Unknown",
+            "Id": 0,
+            "Url": "http:\/\/marketplace.xbox.com\/en-US\/Title\/0"
+          }
+        }
+      },
+      {
+        "Gamertag": "luizzfonseca",
+        "AvatarSmall": "https:\/\/avatar-ssl.xboxlive.com\/global\/t.fffe07d1\/tile\/0\/10001",
+        "AvatarLarge": "https:\/\/avatar-ssl.xboxlive.com\/global\/t.fffe07d1\/tile\/0\/20001",
+        "GamerScore": 1330,
+        "IsOnline": false,
+        "PresenceInfo": {
+          "LastOnline": 1360992737,
+          "OnlineStatus": "Last seen 2\/16\/2013 playing Netflix",
+          "Game": {
+            "Title": "Netflix",
+            "Id": 960956369,
+            "Url": "http:\/\/marketplace.xbox.com\/en-US\/Title\/960956369"
+          }
+        }
+      },
+      {
+        "Gamertag": "Ramonzito10",
+        "AvatarSmall": "https:\/\/avatar-ssl.xboxlive.com\/\/global\/t.FFFE07D1\/tile\/0\/10000",
+        "AvatarLarge": "https:\/\/avatar-ssl.xboxlive.com\/\/global\/t.FFFE07D1\/tile\/0\/20000",
+        "GamerScore": 1910,
+        "IsOnline": false,
+        "PresenceInfo": {
+          "LastOnline": 1041379200,
+          "OnlineStatus": "Offline",
+          "Game": {
+            "Title": "Unknown",
+            "Id": 0,
+            "Url": "http:\/\/marketplace.xbox.com\/en-US\/Title\/0"
+          }
+        }
+      },
+      {
+        "Gamertag": "renan conha",
+        "AvatarSmall": "https:\/\/avatar-ssl.xboxlive.com\/\/global\/t.FFFE07D1\/tile\/0\/10000",
+        "AvatarLarge": "https:\/\/avatar-ssl.xboxlive.com\/\/global\/t.FFFE07D1\/tile\/0\/20000",
+        "GamerScore": 1760,
+        "IsOnline": false,
+        "PresenceInfo": {
+          "LastOnline": 1360882687,
+          "OnlineStatus": "Last seen 2\/14\/2013 playing Xbox Dashboard",
+          "Game": {
+            "Title": "Xbox Dashboard",
+            "Id": 4294838225,
+            "Url": "http:\/\/marketplace.xbox.com\/en-US\/Title\/4294838225"
+          }
+        }
+      },
+      {
+        "Gamertag": "StalloneCobral",
+        "AvatarSmall": "https:\/\/avatar-ssl.xboxlive.com\/global\/t.584108b7\/tile\/0\/1000d",
+        "AvatarLarge": "https:\/\/avatar-ssl.xboxlive.com\/global\/t.584108b7\/tile\/0\/2000d",
+        "GamerScore": 10136,
+        "IsOnline": false,
+        "PresenceInfo": {
+          "LastOnline": 1041379200,
+          "OnlineStatus": "Offline",
+          "Game": {
+            "Title": "Unknown",
+            "Id": 0,
+            "Url": "http:\/\/marketplace.xbox.com\/en-US\/Title\/0"
+          }
+        }
+      },
+      {
+        "Gamertag": "wagnerlv",
+        "AvatarSmall": "https:\/\/avatar-ssl.xboxlive.com\/avatar\/wagnerlv\/avatarpic-s.png",
+        "AvatarLarge": "https:\/\/avatar-ssl.xboxlive.com\/avatar\/wagnerlv\/avatarpic-l.png",
+        "GamerScore": 20,
+        "IsOnline": false,
+        "PresenceInfo": {
+          "LastOnline": 1041379200,
+          "OnlineStatus": "Offline",
+          "Game": {
+            "Title": "Unknown",
+            "Id": 0,
+            "Url": "http:\/\/marketplace.xbox.com\/en-US\/Title\/0"
+          }
+        }
+      }
+    ]
+  },
+  "Stat": "ok",
+  "In": 4.612,
+  "Authed": "false",
+  "AuthedAs": null
+}

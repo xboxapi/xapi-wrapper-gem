@@ -1,0 +1,31 @@
+{
+  "Data": {
+    "Tier": "gold",
+    "IsValid": 1,
+    "IsCheater": 0,
+    "IsOnline": 0,
+    "OnlineStatus": "Last seen 2 hours ago playing Netflix",
+    "XBLLaunchTeam": 0,
+    "NXELaunchTeam": 0,
+    "KinectLaunchTeam": 0,
+    "AvatarTile": "http:\/\/avatar.xboxlive.com\/avatar\/nicolasjensen\/avatarpic-l.png",
+    "AvatarSmall": "http:\/\/avatar.xboxlive.com\/avatar\/nicolasjensen\/avatarpic-s.png",
+    "AvatarLarge": "http:\/\/avatar.xboxlive.com\/avatar\/nicolasjensen\/avatarpic-l.png",
+    "AvatarBody": "http:\/\/avatar.xboxlive.com\/avatar\/nicolasjensen\/avatar-body.png",
+    "AvatarTileSSL": "https:\/\/avatar-ssl.xboxlive.com\/avatar\/nicolasjensen\/avatarpic-l.png",
+    "AvatarSmallSSL": "https:\/\/avatar-ssl.xboxlive.com\/avatar\/nicolasjensen\/avatarpic-s.png",
+    "AvatarLargeSSL": "https:\/\/avatar-ssl.xboxlive.com\/avatar\/nicolasjensen\/avatarpic-l.png",
+    "AvatarBodySSL": "https:\/\/avatar-ssl.xboxlive.com\/avatar\/nicolasjensen\/avatar-body.png",
+    "Gamertag": "nicolasjensen",
+    "GamerScore": 20631,
+    "Reputation": 20,
+    "Name": "Nicolas Iensen",
+    "Motto": "portalxbox.com.br",
+    "Location": "PORTO ALEGRE - BRASIL - RS",
+    "Bio": ""
+  },
+  "Stat": "ok",
+  "In": 2.187,
+  "Authed": "false",
+  "AuthedAs": null
+}
