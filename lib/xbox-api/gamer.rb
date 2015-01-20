@@ -27,7 +27,7 @@ module XboxApi
     attr_reader :client
 
     def fetch_xuid
-      endpoint = "xuid/#{gamertag}"
+      endpoint = "xuid/#{URI.encode(gamertag)}"
       get_with_token(endpoint)
     end
 
