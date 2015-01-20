@@ -20,7 +20,7 @@ Using that client, one can then return a Gamer object
 logan = client.gamer("oh hai loganz")
 ```
 
-The XboxClient::Gamer instance responds to methods that correspond to API endpoints
+The XboxApi::Gamer instance responds to methods that correspond to API endpoints
 
 ```ruby
 logan.presence
