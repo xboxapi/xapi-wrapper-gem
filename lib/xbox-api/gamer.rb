@@ -1,6 +1,3 @@
-require "net/http"
-require "open-uri"
- 
 module XboxApi
   class Gamer
 

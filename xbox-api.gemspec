@@ -16,5 +16,6 @@ Gem::Specification.new do |gem|
   gem.version       = Xboxapi::Wrapper::VERSION
 
   gem.add_runtime_dependency("multi_json")
+  gem.add_runtime_dependency("open-uri")
   gem.add_development_dependency("rspec")
 end
