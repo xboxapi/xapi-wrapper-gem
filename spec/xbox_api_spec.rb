@@ -59,6 +59,17 @@ let(:gamer)  {  VCR.use_cassette("gamer") { client.gamer("audibleblink") }  }
         expect(gamer.xuid).to_not be nil
       end
     end
+
+    context "#friends" do  
+      it "returns an array of friends" do
+        VCR.use_cassette("friends") do
+          response = gamer.friends
+          expect(response).to be_a_kind_of Array
+          expect(response.first).to be_a_kind_of Hash
+          expect(response.first.has_key?(:id)).to be true
+        end
+      end
+    end
   end
 
 end
