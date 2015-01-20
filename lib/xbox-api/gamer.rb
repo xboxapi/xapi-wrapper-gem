@@ -9,19 +9,33 @@ module XboxApi
     def initialize(gamertag, client)
       @gamertag = gamertag
       @client   = client
-      @xuid     = fetch_xuid
+      @xuid     = nil
     end
 
     def presence  
-      endpoint = "#{xuid}/presence"
+      endpoint = "#{xuid}/#{__method__}"
       get_with_token( endpoint )
     end
 
-    
+    def profile
+      endpoint = "#{xuid}/#{__method__}"
+      get_with_token( endpoint )
+    end
+
+    def gamercard
+      endpoint = "#{xuid}/#{__method__}"
+      get_with_token( endpoint )
+    end
+
+    def activity
+      endpoint = "#{xuid}/#{__method__}"
+      get_with_token( endpoint )
+    end
 
     private
 
-    attr_reader :client, :xuid
+    attr_reader :client
+    attr_accessor :xuid
 
     def fetch_xuid
       endpoint = "xuid/#{gamertag}"
@@ -29,8 +43,9 @@ module XboxApi
     end
 
     def get_with_token(endpoint)
-      request  = URI.parse("#{client.base_url}/#{endpoint}")
-      response = open(request, "X-AUTH" => client.api_key)
+      self.xuid ||= fetch_xuid
+      request     = URI.parse("#{client.base_url}/#{endpoint}")
+      response    = open(request, "X-AUTH" => client.api_key)
       response.read
     end
 
