@@ -27,6 +27,13 @@ logan.presence
 logan.gamercard
 ```
 
+The client also respond to `#calls_emaining`
+
+```ruby
+live.calls_remaining
+#=> {:limit=>"120", :remaining=>"112", :resets_in=>"452"}
+```
+
 # The API
 
 ### Currently Supported Endpoints
