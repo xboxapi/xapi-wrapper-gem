@@ -4,8 +4,7 @@ require "open-uri"
 module XboxApi
   class Gamer
 
-    attr_reader :gamertag
-    attr_accessor :xuid
+    attr_reader :gamertag, :xuid
 
     ENDPOINTS = [
       :presence,
