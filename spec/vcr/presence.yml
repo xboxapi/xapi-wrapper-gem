@@ -1,0 +1,109 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://xboxapi.com/v2/xuid/audibleblink
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      x-auth:
+      - e0662396178e32b0ea6c1f36c842a2b96b3bfb3d
+      accept-encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      accept:
+      - "*/*"
+      user-agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      server:
+      - nginx/1.6.2
+      content-type:
+      - text/plain; charset=UTF-8
+      transfer-encoding:
+      - chunked
+      connection:
+      - keep-alive
+      vary:
+      - Accept-Encoding
+      x-powered-by:
+      - PHP/5.5.20-1+deb.sury.org~trusty+1
+      cache-control:
+      - no-cache
+      date:
+      - Tue, 20 Jan 2015 20:58:48 GMT
+      access-control-allow-origin:
+      - "*"
+      x-ratelimit-limit:
+      - '120'
+      x-ratelimit-remaining:
+      - '86'
+      x-ratelimit-reset:
+      - '72'
+      access-control-allow-headers:
+      - content-type, content-length, x-auth, accept-encoding, accept, user-agent,
+        host, Origin, Access-Control-Allow-Origin, Access-Control-Request-Method,
+        Access-Control-Request-Headers, X-Auth
+      content-encoding:
+      - gzip
+    body:
+      encoding: UTF-8
+      string: '2533274810770211'
+    http_version: '1.1'
+  recorded_at: Tue, 20 Jan 2015 20:58:47 GMT
+- request:
+    method: get
+    uri: https://xboxapi.com/v2/2533274810770211/presence
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      x-auth:
+      - e0662396178e32b0ea6c1f36c842a2b96b3bfb3d
+      accept-encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      accept:
+      - "*/*"
+      user-agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      server:
+      - nginx/1.6.2
+      content-type:
+      - application/json
+      transfer-encoding:
+      - chunked
+      connection:
+      - keep-alive
+      x-powered-by:
+      - PHP/5.5.20-1+deb.sury.org~trusty+1
+      cache-control:
+      - no-cache
+      date:
+      - Tue, 20 Jan 2015 20:58:49 GMT
+      access-control-allow-origin:
+      - "*"
+      x-ratelimit-limit:
+      - '120'
+      x-ratelimit-remaining:
+      - '85'
+      x-ratelimit-reset:
+      - '71'
+      access-control-allow-headers:
+      - content-type, content-length, x-auth, accept-encoding, accept, user-agent,
+        host, Origin, Access-Control-Allow-Origin, Access-Control-Request-Method,
+        Access-Control-Request-Headers, X-Auth
+    body:
+      encoding: UTF-8
+      string: '{"xuid":2533274810770211,"state":"Offline"}'
+    http_version: '1.1'
+  recorded_at: Tue, 20 Jan 2015 20:58:48 GMT
+recorded_with: VCR 2.9.3
