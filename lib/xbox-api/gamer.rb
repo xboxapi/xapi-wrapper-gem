@@ -37,7 +37,6 @@ module XboxApi
       response.read
     end
 
-
   end
 
 end
