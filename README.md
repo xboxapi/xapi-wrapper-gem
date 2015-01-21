@@ -47,7 +47,7 @@ live.calls_remaining
 
 ### Currently Supported Endpoints
 
-| Endpoint | Method Name |  Short Description |
+| Method Name | Endpoint |  Short Description |
 |---       |---   |---                 |
 | profile         | /v2/{xuid}/profile         | This is the Profile for a specified XUID|
 | gamercard       | /v2/{xuid}/gamercard       | This is the Gamercard information for a specified XUID|
