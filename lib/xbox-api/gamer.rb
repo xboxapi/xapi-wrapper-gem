@@ -15,10 +15,10 @@ module XboxApi
       :game_clips
     ]
 
-    def initialize(gamertag, client)
+    def initialize(gamertag, client, xuid=nil)
       @gamertag = gamertag
       @client   = client
-      @xuid     = fetch_xuid
+      @xuid     = xuid || fetch_xuid
     end
 
     ENDPOINTS.each do |action|
