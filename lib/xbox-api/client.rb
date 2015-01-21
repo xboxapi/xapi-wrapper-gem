@@ -29,7 +29,7 @@ module XboxApi
     private 
 
     def parse(json)
-      MultiJson.load(json, symbolize_keys: true)
+      Yajl::Parser.parse(json, symbolize_keys: true)
     end
 
     def get_with_token(endpoint)

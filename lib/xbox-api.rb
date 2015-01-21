@@ -1,4 +1,4 @@
-require "multi_json"
+require "yajl"
 require "open-uri"
 require "xbox-api/version"
 require "xbox-api/client"
