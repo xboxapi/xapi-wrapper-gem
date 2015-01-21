@@ -2,9 +2,9 @@ require 'spec_helper'
 
 describe XboxApi do
 
-let(:token)  {ENV['XBOX_TOKEN']}
-let(:client) {XboxApi::Client.new(token)}
-let(:gamer)  {  VCR.use_cassette("gamer") { client.gamer("audibleblink") }  }
+let(:token)  { ENV['XBOX_TOKEN'] }
+let(:client) { XboxApi::Client.new(token) }
+let(:gamer)  { VCR.use_cassette("gamer") { client.gamer("audibleblink") } }
 
   describe XboxApi::Client do
 
@@ -26,6 +26,7 @@ let(:gamer)  {  VCR.use_cassette("gamer") { client.gamer("audibleblink") }  }
       end
     end
   end
+
 
   describe XboxApi::Gamer do
 
