@@ -63,6 +63,86 @@ let(:gamer)  { VCR.use_cassette("gamer") { client.gamer("audibleblink") } }
         end
       end
     end
+
+    context "#followers" do  
+      it "returns an array of followers" do
+        VCR.use_cassette("followers") do
+          response = gamer.followers
+          expect(response).to be_a_kind_of Array
+          expect(response.first).to be_a_kind_of Hash
+        end
+      end
+    end
+
+    context "#gamercard" do  
+      it "returns the users gamercard" do
+        VCR.use_cassette("gamercard") do
+          response = gamer.gamercard
+          expect(response).to be_a_kind_of Hash
+          expect(response[:gamertag].downcase).to eq gamer.gamertag
+        end
+      end
+    end
+
+    context "#activity" do  
+      it "returns the users activity" do
+        VCR.use_cassette("activity") do
+          response = gamer.activity
+          expect(response).to be_a_kind_of Hash
+          expect(response.keys.include?(:activityItems)).to be true
+        end
+      end
+    end
+
+    context "#profile" do  
+      it "returns the users profile" do
+        VCR.use_cassette("profile") do
+          response = gamer.profile
+          expect(response).to be_a_kind_of Hash
+          expect(response[:id]).to eq gamer.xuid
+        end
+      end
+    end
+
+    context "#game_clips" do  
+      it "returns an array of game_clips" do
+        VCR.use_cassette("game_clips") do
+          response = gamer.game_clips
+          expect(response).to be_a_kind_of Array
+          expect(response.first.keys.include? :gameClipId).to be true
+        end
+      end
+    end
+
+    context "#xboxonegames" do  
+      it "returns an array of xboxonegames" do
+        VCR.use_cassette("xboxonegames") do
+          response = gamer.xboxonegames
+          expect(response).to be_a_kind_of Hash
+          expect(response[:titles]).to be_a_kind_of Array
+        end
+      end
+    end
+
+    context "#xbox360games" do  
+      it "returns an array of xbox360games" do
+        VCR.use_cassette("xbox360games") do
+          response = gamer.xbox360games
+          expect(response).to be_a_kind_of Hash
+          expect(response[:titles]).to be_a_kind_of Array
+        end
+      end
+    end
+
+    context "#recent_activity" do  
+      it "returns an array of recent_activity" do
+        VCR.use_cassette("recent_activity") do
+          response = gamer.recent_activity
+          expect(response).to be_a_kind_of Array
+          expect(response.first.keys.include?(:startTime)).to be true
+        end
+      end
+    end
   end
 
 end
