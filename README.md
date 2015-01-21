@@ -1,4 +1,4 @@
-![](https://circleci.com/gh/audibleblink/xbox-api.png?circle-token=:circle-token)
+![](https://circleci.com/gh/audibleblink/xbox-api.svg?style=shield&circle-token=:circle-token)
 
 # Desciption
 
