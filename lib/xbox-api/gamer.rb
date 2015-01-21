@@ -33,6 +33,15 @@ module XboxApi
       client.fetch_body_and_parse( endpoint )
     end
 
+    # TODO: These don't belong here
+    # [:messages, :recent_players].each do |action|
+    #   define_method(action) do
+    #     endpoint = __method__.to_s.gsub("_", "-")
+    #     client.fetch_body_and_parse( endpoint )      
+    #   end
+    # end
+
+
     private
 
       attr_reader :client
