@@ -18,7 +18,7 @@ The client takes one argument; your xbox API token.
 
 ```ruby
 require "xbox-api"
-client = XboxApi::Client.new("424242424242424242424242")
+client = XboxApi::Client.new("7ae98726beb982d987e7987ab1239a87")
 #=> <XboxApi::Client:0x007fcc9215c8e8>
 
 ```
@@ -41,6 +41,14 @@ The client also respond to `#calls_remaining`
 ```ruby
 live.calls_remaining
 #=> {:limit=>"120", :remaining=>"112", :resets_in=>"452"}
+```
+
+
+If one already has a gamer's XUID, the API lookup normally required to fetch an XUID during initialization may be skipped by passing in a client instance and the gamer's XUID as the third argument.
+
+```ruby
+client = XboxApi::Client.new(ENV[:XBOX_TOKEN])
+logan = XboxApi::Gamer.new("oh hai loganz", client, "189823798746")
 ```
 
 # The API
