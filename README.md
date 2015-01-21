@@ -3,9 +3,13 @@
 [![Code Climate](https://codeclimate.com/github/audibleblink/xbox-api/badges/gpa.svg)](https://codeclimate.com/github/audibleblink/xbox-api)  
 
 
-# Desciption
+# Description
 
 This is a Ruby wrapper for the unofficial Xbox API located at http://xboxapi.com
+
+#Installation
+
+`gem install xbox-api`
 
 # Usage
 
