@@ -7,42 +7,42 @@ http_interactions:
       encoding: US-ASCII
       string: ''
     headers:
-      x-auth:
+      X-Auth:
       - e0662396178e32b0ea6c1f36c842a2b96b3bfb3d
-      accept-encoding:
+      Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      accept:
+      Accept:
       - "*/*"
-      user-agent:
+      User-Agent:
       - Ruby
   response:
     status:
       code: 200
       message: OK
     headers:
-      server:
+      Server:
       - nginx/1.6.2
-      content-type:
+      Content-Type:
       - application/json
-      transfer-encoding:
+      Transfer-Encoding:
       - chunked
-      connection:
+      Connection:
       - keep-alive
-      x-powered-by:
+      X-Powered-By:
       - PHP/5.5.20-1+deb.sury.org~trusty+1
-      cache-control:
+      Cache-Control:
       - no-cache
-      date:
-      - Wed, 21 Jan 2015 15:56:59 GMT
-      access-control-allow-origin:
+      Date:
+      - Wed, 21 Jan 2015 17:13:34 GMT
+      Access-Control-Allow-Origin:
       - "*"
-      x-ratelimit-limit:
+      X-Ratelimit-Limit:
       - '120'
-      x-ratelimit-remaining:
-      - '113'
-      x-ratelimit-reset:
-      - '181'
-      access-control-allow-headers:
+      X-Ratelimit-Remaining:
+      - '116'
+      X-Ratelimit-Reset:
+      - '2786'
+      Access-Control-Allow-Headers:
       - content-type, content-length, x-auth, accept-encoding, accept, user-agent,
         host, Origin, Access-Control-Allow-Origin, Access-Control-Request-Method,
         Access-Control-Request-Headers, X-Auth
@@ -101,6 +101,6 @@ http_interactions:
         ","TenureLevel":0,"isSponsoredUser":false},{"id":2533274811418502,"hostId":null,"Gamertag":"Germanic
         Ogre","GameDisplayName":"Germanic Ogre","AppDisplayName":"Germanic Ogre","Gamerscore":11392,"GameDisplayPicRaw":"http:\/\/images-eds.xboxlive.com\/image?url=rwljod2fPqLqGP3DBV9F_yK9iuxAt3_MH6tcOnQXTc.87uHqq6SD6G4V1UNTmK74GFLofW5Gt90gYFWoxSQRSgqvNcD2t5a5LzTHwLur0cY-&background=0xababab&format=png","AppDisplayPicRaw":"http:\/\/images-eds.xboxlive.com\/image?url=rwljod2fPqLqGP3DBV9F_yK9iuxAt3_MH6tcOnQXTc.87uHqq6SD6G4V1UNTmK74GFLofW5Gt90gYFWoxSQRSgqvNcD2t5a5LzTHwLur0cY-&background=0xababab&format=png","AccountTier":"Gold","XboxOneRep":"GoodPlayer","PreferredColor":"http:\/\/dlassets.xboxlive.com\/public\/content\/ppl\/colors\/00000.json
         ","TenureLevel":7,"isSponsoredUser":false}]'
-    http_version: '1.1'
-  recorded_at: Wed, 21 Jan 2015 15:57:00 GMT
+    http_version: 
+  recorded_at: Wed, 21 Jan 2015 17:13:34 GMT
 recorded_with: VCR 2.9.3

@@ -7,42 +7,42 @@ http_interactions:
       encoding: US-ASCII
       string: ''
     headers:
-      x-auth:
+      X-Auth:
       - e0662396178e32b0ea6c1f36c842a2b96b3bfb3d
-      accept-encoding:
+      Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      accept:
+      Accept:
       - "*/*"
-      user-agent:
+      User-Agent:
       - Ruby
   response:
     status:
       code: 200
       message: OK
     headers:
-      server:
+      Server:
       - nginx/1.6.2
-      content-type:
+      Content-Type:
       - application/json
-      transfer-encoding:
+      Transfer-Encoding:
       - chunked
-      connection:
+      Connection:
       - keep-alive
-      x-powered-by:
+      X-Powered-By:
       - PHP/5.5.20-1+deb.sury.org~trusty+1
-      cache-control:
+      Cache-Control:
       - no-cache
-      date:
-      - Wed, 21 Jan 2015 15:57:07 GMT
-      access-control-allow-origin:
+      Date:
+      - Wed, 21 Jan 2015 17:13:41 GMT
+      Access-Control-Allow-Origin:
       - "*"
-      x-ratelimit-limit:
+      X-Ratelimit-Limit:
       - '120'
-      x-ratelimit-remaining:
-      - '107'
-      x-ratelimit-reset:
-      - '173'
-      access-control-allow-headers:
+      X-Ratelimit-Remaining:
+      - '110'
+      X-Ratelimit-Reset:
+      - '2779'
+      Access-Control-Allow-Headers:
       - content-type, content-length, x-auth, accept-encoding, accept, user-agent,
         host, Origin, Access-Control-Allow-Origin, Access-Control-Request-Method,
         Access-Control-Request-Headers, X-Auth
@@ -141,7 +141,7 @@ http_interactions:
         Force Unleashed","totalAchievements":59,"totalGamerscore":1345},{"lastPlayed":"2008-06-26T23:40:21.4870000Z","currentAchievements":11,"currentGamerscore":185,"sequence":25,"titleId":1161889785,"titleType":1,"platforms":[1],"name":"Battlefield:
         Bad Co.","totalAchievements":50,"totalGamerscore":1000},{"lastPlayed":"2008-05-10T08:56:55.9470000Z","currentAchievements":5,"currentGamerscore":70,"sequence":3,"titleId":1414793202,"titleType":1,"platforms":[1],"name":"GTA
         IV","totalAchievements":65,"totalGamerscore":1500},{"lastPlayed":"1753-01-01T00:00:00.0000000Z","currentAchievements":1,"currentGamerscore":25,"sequence":2,"titleId":1297287144,"titleType":1,"platforms":[1],"name":"Mass
-        Effect","totalAchievements":49,"totalGamerscore":1200}],"pagingInfo":{"continuationToken":null,"totalRecords":107},"version":"2015-01-21T15:57:07.5230000Z"}'
-    http_version: '1.1'
-  recorded_at: Wed, 21 Jan 2015 15:57:07 GMT
+        Effect","totalAchievements":49,"totalGamerscore":1200}],"pagingInfo":{"continuationToken":null,"totalRecords":107},"version":"2015-01-21T17:13:41.0830000Z"}'
+    http_version: 
+  recorded_at: Wed, 21 Jan 2015 17:13:41 GMT
 recorded_with: VCR 2.9.3

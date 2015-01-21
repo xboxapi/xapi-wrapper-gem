@@ -7,42 +7,42 @@ http_interactions:
       encoding: US-ASCII
       string: ''
     headers:
-      x-auth:
+      X-Auth:
       - e0662396178e32b0ea6c1f36c842a2b96b3bfb3d
-      accept-encoding:
+      Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      accept:
+      Accept:
       - "*/*"
-      user-agent:
+      User-Agent:
       - Ruby
   response:
     status:
       code: 200
       message: OK
     headers:
-      server:
+      Server:
       - nginx/1.6.2
-      content-type:
+      Content-Type:
       - application/json
-      transfer-encoding:
+      Transfer-Encoding:
       - chunked
-      connection:
+      Connection:
       - keep-alive
-      x-powered-by:
+      X-Powered-By:
       - PHP/5.5.20-1+deb.sury.org~trusty+1
-      cache-control:
+      Cache-Control:
       - no-cache
-      date:
-      - Tue, 20 Jan 2015 22:42:53 GMT
-      access-control-allow-origin:
+      Date:
+      - Wed, 21 Jan 2015 17:13:33 GMT
+      Access-Control-Allow-Origin:
       - "*"
-      x-ratelimit-limit:
+      X-Ratelimit-Limit:
       - '120'
-      x-ratelimit-remaining:
-      - '120'
-      x-ratelimit-reset:
-      - '1028'
-      access-control-allow-headers:
+      X-Ratelimit-Remaining:
+      - '117'
+      X-Ratelimit-Reset:
+      - '2788'
+      Access-Control-Allow-Headers:
       - content-type, content-length, x-auth, accept-encoding, accept, user-agent,
         host, Origin, Access-Control-Allow-Origin, Access-Control-Request-Method,
         Access-Control-Request-Headers, X-Auth
@@ -61,7 +61,7 @@ http_interactions:
         ","TenureLevel":8,"isSponsoredUser":false},{"id":2533274798467178,"hostId":null,"Gamertag":"adobo24","GameDisplayName":"adobo24","AppDisplayName":"adobo24","Gamerscore":28455,"GameDisplayPicRaw":"http:\/\/images-eds.xboxlive.com\/image?url=7OTVnZUMVj4OV2zUUGecWvn3U00nQQLfK7_kwpANogitHh2lKiCF_0pDYSg0gO90GHAvpuUxGxLKlUUNrk2fCG45BjQbdKCR7BDygirtH3xIEFTqj6pZ_m7b8ZlTaW_0Huk7xGAEzsBPdKs3ichzZg--&format=png","AppDisplayPicRaw":"http:\/\/images-eds.xboxlive.com\/image?url=7OTVnZUMVj4OV2zUUGecWvn3U00nQQLfK7_kwpANogitHh2lKiCF_0pDYSg0gO90GHAvpuUxGxLKlUUNrk2fCG45BjQbdKCR7BDygirtH3xIEFTqj6pZ_m7b8ZlTaW_0Huk7xGAEzsBPdKs3ichzZg--&format=png","AccountTier":"Gold","XboxOneRep":"GoodPlayer","PreferredColor":"http:\/\/dlassets.xboxlive.com\/public\/content\/ppl\/colors\/00004.json","TenureLevel":7,"isSponsoredUser":false},{"id":2533274874814710,"hostId":null,"Gamertag":"CaliGirlStuck","GameDisplayName":"CaliGirlStuck","AppDisplayName":"CaliGirlStuck","Gamerscore":510,"GameDisplayPicRaw":"http:\/\/images-eds.xboxlive.com\/image?url=rwljod2fPqLqGP3DBV9F_yK9iuxAt3_MH6tcOnQXTc_PNk3SEMIDq8raz86BwP4ub2YXsNsg6OxAC7fxdwIZ29mSqNOWszUF3J7Kcq1Z2Lc-&background=0xababab&format=png","AppDisplayPicRaw":"http:\/\/images-eds.xboxlive.com\/image?url=rwljod2fPqLqGP3DBV9F_yK9iuxAt3_MH6tcOnQXTc_PNk3SEMIDq8raz86BwP4ub2YXsNsg6OxAC7fxdwIZ29mSqNOWszUF3J7Kcq1Z2Lc-&background=0xababab&format=png","AccountTier":"Silver","XboxOneRep":"GoodPlayer","PreferredColor":"http:\/\/dlassets.xboxlive.com\/public\/content\/ppl\/colors\/00000.json
         ","TenureLevel":0,"isSponsoredUser":false},{"id":2533274891520875,"hostId":null,"Gamertag":"zentrified","GameDisplayName":"zentrified","AppDisplayName":"zentrified","Gamerscore":435,"GameDisplayPicRaw":"http:\/\/images-eds.xboxlive.com\/image?url=mHGRD8KXEf2sp2LC58XhBQKNl2IWRp.J.q8mSURKUUeQDtobyN5xmswIs1qggzrwbD8vt3La05OHAYcIyhKKuqlo01fMoqmHrUvRzztXRqM-&background=0xababab&format=png","AppDisplayPicRaw":"http:\/\/images-eds.xboxlive.com\/image?url=mHGRD8KXEf2sp2LC58XhBQKNl2IWRp.J.q8mSURKUUeQDtobyN5xmswIs1qggzrwbD8vt3La05OHAYcIyhKKuqlo01fMoqmHrUvRzztXRqM-&background=0xababab&format=png","AccountTier":"Gold","XboxOneRep":"GoodPlayer","PreferredColor":"http:\/\/dlassets.xboxlive.com\/public\/content\/ppl\/colors\/00000.json
         ","TenureLevel":3,"isSponsoredUser":false},{"id":2533274917638090,"hostId":null,"Gamertag":"iHitchSlap","GameDisplayName":"iHitchSlap","AppDisplayName":"iHitchSlap","Gamerscore":155,"GameDisplayPicRaw":"http:\/\/images-eds.xboxlive.com\/image?url=rwljod2fPqLqGP3DBV9F_yK9iuxAt3_MH6tcOnQXTc.ivVd2ymk45aOd2l_9V2dR8.oZOiFOTIrX88WOsL5tj4TxGqdOozZuRwxqRq74f2c-&background=0xababab&format=png","AppDisplayPicRaw":"http:\/\/images-eds.xboxlive.com\/image?url=rwljod2fPqLqGP3DBV9F_yK9iuxAt3_MH6tcOnQXTc.ivVd2ymk45aOd2l_9V2dR8.oZOiFOTIrX88WOsL5tj4TxGqdOozZuRwxqRq74f2c-&background=0xababab&format=png","AccountTier":"Gold","XboxOneRep":"GoodPlayer","PreferredColor":"http:\/\/dlassets.xboxlive.com\/public\/content\/ppl\/colors\/00000.json
-        ","TenureLevel":2,"isSponsoredUser":false},{"id":2533274809404621,"hostId":null,"Gamertag":"operatorIsaac","GameDisplayName":"operatorIsaac","AppDisplayName":"operatorIsaac","Gamerscore":10200,"GameDisplayPicRaw":"http:\/\/images-eds.xboxlive.com\/image?url=z951ykn43p4FqWbbFvR2Ec.8vbDhj8G2Xe7JngaTToBrrCmIEEXHC9UNrdJ6P7KIFXxmxGDtE9Vkd62rOpb7JUmtCXTwDTlK3UzFTrgEfKJkEr.I5BEum2MHdRtAlbhJ&format=png","AppDisplayPicRaw":"http:\/\/images-eds.xboxlive.com\/image?url=z951ykn43p4FqWbbFvR2Ec.8vbDhj8G2Xe7JngaTToBrrCmIEEXHC9UNrdJ6P7KIFXxmxGDtE9Vkd62rOpb7JUmtCXTwDTlK3UzFTrgEfKJkEr.I5BEum2MHdRtAlbhJ&format=png","AccountTier":"Gold","XboxOneRep":"GoodPlayer","PreferredColor":"http:\/\/dlassets.xboxlive.com\/public\/content\/ppl\/colors\/00011.json","TenureLevel":5,"isSponsoredUser":false},{"id":2533274807702232,"hostId":null,"Gamertag":"editfilm","GameDisplayName":"editfilm","AppDisplayName":"editfilm","Gamerscore":18775,"GameDisplayPicRaw":"http:\/\/images-eds.xboxlive.com\/image?url=rwljod2fPqLqGP3DBV9F_yK9iuxAt3_MH6tcOnQXTc8uHo14OwLV0UY78DtAF0xsLIjrQciGhBvl5gf3TQJGnlfpYz9oniTINqER9n1Gca4-&background=0xababab&format=png","AppDisplayPicRaw":"http:\/\/images-eds.xboxlive.com\/image?url=rwljod2fPqLqGP3DBV9F_yK9iuxAt3_MH6tcOnQXTc8uHo14OwLV0UY78DtAF0xsLIjrQciGhBvl5gf3TQJGnlfpYz9oniTINqER9n1Gca4-&background=0xababab&format=png","AccountTier":"Silver","XboxOneRep":"GoodPlayer","PreferredColor":"http:\/\/dlassets.xboxlive.com\/public\/content\/ppl\/colors\/00019.json","TenureLevel":0,"isSponsoredUser":false},{"id":2533274794492396,"hostId":null,"Gamertag":"WhiteM0nkey","GameDisplayName":"WhiteM0nkey","AppDisplayName":"WhiteM0nkey","Gamerscore":12745,"GameDisplayPicRaw":"http:\/\/images-eds.xboxlive.com\/image?url=z951ykn43p4FqWbbFvR2Ec.8vbDhj8G2Xe7JngaTToBrrCmIEEXHC9UNrdJ6P7KIwuPiuIs6TLDV4WsQAGzSwnpF.Ws8PCaSrE_Lg3iFYX34YrNDQVDwUtzAcX.MdWQB&format=png","AppDisplayPicRaw":"http:\/\/images-eds.xboxlive.com\/image?url=z951ykn43p4FqWbbFvR2Ec.8vbDhj8G2Xe7JngaTToBrrCmIEEXHC9UNrdJ6P7KIwuPiuIs6TLDV4WsQAGzSwnpF.Ws8PCaSrE_Lg3iFYX34YrNDQVDwUtzAcX.MdWQB&format=png","AccountTier":"Gold","XboxOneRep":"GoodPlayer","PreferredColor":"http:\/\/dlassets.xboxlive.com\/public\/content\/ppl\/colors\/00014.json","TenureLevel":8,"isSponsoredUser":false},{"id":2533274963171483,"hostId":null,"Gamertag":"G0DzGuillotine","GameDisplayName":"G0DzGuillotine","AppDisplayName":"G0DzGuillotine","Gamerscore":1915,"GameDisplayPicRaw":"http:\/\/images-eds.xboxlive.com\/image?url=mHGRD8KXEf2sp2LC58XhBQKNl2IWRp.J.q8mSURKUUcGaSSK.zcgvM1Ugm2MhVcyKbVhbha8EEpuEd2LPVyLB8HmD.xyge86_yWAwJQ7Cs8-&background=0xababab&format=png","AppDisplayPicRaw":"http:\/\/images-eds.xboxlive.com\/image?url=mHGRD8KXEf2sp2LC58XhBQKNl2IWRp.J.q8mSURKUUcGaSSK.zcgvM1Ugm2MhVcyKbVhbha8EEpuEd2LPVyLB8HmD.xyge86_yWAwJQ7Cs8-&background=0xababab&format=png","AccountTier":"Gold","XboxOneRep":"GoodPlayer","PreferredColor":"http:\/\/dlassets.xboxlive.com\/public\/content\/ppl\/colors\/00002.json","TenureLevel":2,"isSponsoredUser":false},{"id":2533274799585379,"hostId":null,"Gamertag":"iiM
+        ","TenureLevel":2,"isSponsoredUser":false},{"id":2533274809404621,"hostId":null,"Gamertag":"operatorIsaac","GameDisplayName":"operatorIsaac","AppDisplayName":"operatorIsaac","Gamerscore":10200,"GameDisplayPicRaw":"http:\/\/images-eds.xboxlive.com\/image?url=z951ykn43p4FqWbbFvR2Ec.8vbDhj8G2Xe7JngaTToBrrCmIEEXHC9UNrdJ6P7KIFXxmxGDtE9Vkd62rOpb7JUmtCXTwDTlK3UzFTrgEfKJkEr.I5BEum2MHdRtAlbhJ&format=png","AppDisplayPicRaw":"http:\/\/images-eds.xboxlive.com\/image?url=z951ykn43p4FqWbbFvR2Ec.8vbDhj8G2Xe7JngaTToBrrCmIEEXHC9UNrdJ6P7KIFXxmxGDtE9Vkd62rOpb7JUmtCXTwDTlK3UzFTrgEfKJkEr.I5BEum2MHdRtAlbhJ&format=png","AccountTier":"Gold","XboxOneRep":"GoodPlayer","PreferredColor":"http:\/\/dlassets.xboxlive.com\/public\/content\/ppl\/colors\/00011.json","TenureLevel":5,"isSponsoredUser":false},{"id":2533274807702232,"hostId":null,"Gamertag":"editfilm","GameDisplayName":"editfilm","AppDisplayName":"editfilm","Gamerscore":18795,"GameDisplayPicRaw":"http:\/\/images-eds.xboxlive.com\/image?url=rwljod2fPqLqGP3DBV9F_yK9iuxAt3_MH6tcOnQXTc8uHo14OwLV0UY78DtAF0xsLIjrQciGhBvl5gf3TQJGnlfpYz9oniTINqER9n1Gca4-&background=0xababab&format=png","AppDisplayPicRaw":"http:\/\/images-eds.xboxlive.com\/image?url=rwljod2fPqLqGP3DBV9F_yK9iuxAt3_MH6tcOnQXTc8uHo14OwLV0UY78DtAF0xsLIjrQciGhBvl5gf3TQJGnlfpYz9oniTINqER9n1Gca4-&background=0xababab&format=png","AccountTier":"Silver","XboxOneRep":"GoodPlayer","PreferredColor":"http:\/\/dlassets.xboxlive.com\/public\/content\/ppl\/colors\/00019.json","TenureLevel":0,"isSponsoredUser":false},{"id":2533274794492396,"hostId":null,"Gamertag":"WhiteM0nkey","GameDisplayName":"WhiteM0nkey","AppDisplayName":"WhiteM0nkey","Gamerscore":12745,"GameDisplayPicRaw":"http:\/\/images-eds.xboxlive.com\/image?url=z951ykn43p4FqWbbFvR2Ec.8vbDhj8G2Xe7JngaTToBrrCmIEEXHC9UNrdJ6P7KIwuPiuIs6TLDV4WsQAGzSwnpF.Ws8PCaSrE_Lg3iFYX34YrNDQVDwUtzAcX.MdWQB&format=png","AppDisplayPicRaw":"http:\/\/images-eds.xboxlive.com\/image?url=z951ykn43p4FqWbbFvR2Ec.8vbDhj8G2Xe7JngaTToBrrCmIEEXHC9UNrdJ6P7KIwuPiuIs6TLDV4WsQAGzSwnpF.Ws8PCaSrE_Lg3iFYX34YrNDQVDwUtzAcX.MdWQB&format=png","AccountTier":"Gold","XboxOneRep":"GoodPlayer","PreferredColor":"http:\/\/dlassets.xboxlive.com\/public\/content\/ppl\/colors\/00014.json","TenureLevel":8,"isSponsoredUser":false},{"id":2533274963171483,"hostId":null,"Gamertag":"G0DzGuillotine","GameDisplayName":"G0DzGuillotine","AppDisplayName":"G0DzGuillotine","Gamerscore":1915,"GameDisplayPicRaw":"http:\/\/images-eds.xboxlive.com\/image?url=mHGRD8KXEf2sp2LC58XhBQKNl2IWRp.J.q8mSURKUUcGaSSK.zcgvM1Ugm2MhVcyKbVhbha8EEpuEd2LPVyLB8HmD.xyge86_yWAwJQ7Cs8-&background=0xababab&format=png","AppDisplayPicRaw":"http:\/\/images-eds.xboxlive.com\/image?url=mHGRD8KXEf2sp2LC58XhBQKNl2IWRp.J.q8mSURKUUcGaSSK.zcgvM1Ugm2MhVcyKbVhbha8EEpuEd2LPVyLB8HmD.xyge86_yWAwJQ7Cs8-&background=0xababab&format=png","AccountTier":"Gold","XboxOneRep":"GoodPlayer","PreferredColor":"http:\/\/dlassets.xboxlive.com\/public\/content\/ppl\/colors\/00002.json","TenureLevel":2,"isSponsoredUser":false},{"id":2533274799585379,"hostId":null,"Gamertag":"iiM
         bLacK","GameDisplayName":"iiM bLacK","AppDisplayName":"iiM bLacK","Gamerscore":21163,"GameDisplayPicRaw":"http:\/\/images-eds.xboxlive.com\/image?url=mHGRD8KXEf2sp2LC58XhBQKNl2IWRp.J.q8mSURKUUchPq0cBsonKgUIJuN9sjQeFi5pYIo9Kkoo3BUO6SqT9S1YjdStvRfEURfcEPch1wM-&background=0xababab&format=png","AppDisplayPicRaw":"http:\/\/images-eds.xboxlive.com\/image?url=mHGRD8KXEf2sp2LC58XhBQKNl2IWRp.J.q8mSURKUUchPq0cBsonKgUIJuN9sjQeFi5pYIo9Kkoo3BUO6SqT9S1YjdStvRfEURfcEPch1wM-&background=0xababab&format=png","AccountTier":"Gold","XboxOneRep":"GoodPlayer","PreferredColor":"http:\/\/dlassets.xboxlive.com\/public\/content\/ppl\/colors\/00000.json
         ","TenureLevel":7,"isSponsoredUser":false},{"id":2533274814934853,"hostId":null,"Gamertag":"thingsomething","GameDisplayName":"thingsomething","AppDisplayName":"thingsomething","Gamerscore":9423,"GameDisplayPicRaw":"http:\/\/images-eds.xboxlive.com\/image?url=rwljod2fPqLqGP3DBV9F_yK9iuxAt3_MH6tcOnQXTc_H0xsxOyEXWcF9F5SnxH.deikb4ww2MEji0baauGJmGNUWW7ka8H5mjWY5SK0ABzs-&background=0xababab&format=png","AppDisplayPicRaw":"http:\/\/images-eds.xboxlive.com\/image?url=rwljod2fPqLqGP3DBV9F_yK9iuxAt3_MH6tcOnQXTc_H0xsxOyEXWcF9F5SnxH.deikb4ww2MEji0baauGJmGNUWW7ka8H5mjWY5SK0ABzs-&background=0xababab&format=png","AccountTier":"Gold","XboxOneRep":"GoodPlayer","PreferredColor":"http:\/\/dlassets.xboxlive.com\/public\/content\/ppl\/colors\/00011.json","TenureLevel":6,"isSponsoredUser":false},{"id":2533274878136093,"hostId":null,"Gamertag":"The
         CA Sniper","GameDisplayName":"The CA Sniper","AppDisplayName":"The CA Sniper","Gamerscore":6125,"GameDisplayPicRaw":"http:\/\/images-eds.xboxlive.com\/image?url=mHGRD8KXEf2sp2LC58XhBQKNl2IWRp.J.q8mSURKUUdPcYGuYNcQLWo5cMgSlN5YoR3e8J8dPi.UUjMsf3fTIcpbarQpwu8g3r973aK3tB4-&background=0xababab&format=png","AppDisplayPicRaw":"http:\/\/images-eds.xboxlive.com\/image?url=mHGRD8KXEf2sp2LC58XhBQKNl2IWRp.J.q8mSURKUUdPcYGuYNcQLWo5cMgSlN5YoR3e8J8dPi.UUjMsf3fTIcpbarQpwu8g3r973aK3tB4-&background=0xababab&format=png","AccountTier":"Gold","XboxOneRep":"GoodPlayer","PreferredColor":"http:\/\/dlassets.xboxlive.com\/public\/content\/ppl\/colors\/00000.json
@@ -94,6 +94,6 @@ http_interactions:
         ","TenureLevel":0,"isSponsoredUser":false},{"id":2533274811418502,"hostId":null,"Gamertag":"Germanic
         Ogre","GameDisplayName":"Germanic Ogre","AppDisplayName":"Germanic Ogre","Gamerscore":11392,"GameDisplayPicRaw":"http:\/\/images-eds.xboxlive.com\/image?url=rwljod2fPqLqGP3DBV9F_yK9iuxAt3_MH6tcOnQXTc.87uHqq6SD6G4V1UNTmK74GFLofW5Gt90gYFWoxSQRSgqvNcD2t5a5LzTHwLur0cY-&background=0xababab&format=png","AppDisplayPicRaw":"http:\/\/images-eds.xboxlive.com\/image?url=rwljod2fPqLqGP3DBV9F_yK9iuxAt3_MH6tcOnQXTc.87uHqq6SD6G4V1UNTmK74GFLofW5Gt90gYFWoxSQRSgqvNcD2t5a5LzTHwLur0cY-&background=0xababab&format=png","AccountTier":"Gold","XboxOneRep":"GoodPlayer","PreferredColor":"http:\/\/dlassets.xboxlive.com\/public\/content\/ppl\/colors\/00000.json
         ","TenureLevel":7,"isSponsoredUser":false}]'
-    http_version: '1.1'
-  recorded_at: Tue, 20 Jan 2015 22:42:53 GMT
+    http_version: 
+  recorded_at: Wed, 21 Jan 2015 17:13:33 GMT
 recorded_with: VCR 2.9.3
