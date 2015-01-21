@@ -40,14 +40,14 @@ live.calls_remaining
 
 ### Currently Supported Endpoints
 
-| Endpoint | Name |  Short Description |
+| Endpoint | Method Name |  Short Description |
 |---       |---   |---                 |
-| /v2/{xuid}/profile | Profile | This is the Profile for a specified XUID|
-| /v2/{xuid}/gamercard | Gamercard | This is the Gamercard information for a specified XUID|
-| /v2/{xuid}/presence | Presence | This is the current presence information for a specified XUID|
-| /v2/{xuid}/activity | Activity | This is the current activity information for a specified XUID|
-| /v2/{xuid}/activity/recent | Recent Activity | This is the recent activity information for a specified XUID|
-| /v2/{xuid}/friends | Friends | This is the friends information for a specified XUID|
-| /v2/{xuid}/followers | Followers | This is the followers information for a specified XUID|
-| /v2/{xuid}/xbox360games | Xbox 360 Games | This is the Xbox 360 Games List for a specified XUID|
-| /v2/{xuid}/xboxonegames | Xbox ONE Games | This is the Xbox One Games List for a specified XUID|
+| profile         | /v2/{xuid}/profile         | This is the Profile for a specified XUID|
+| gamercard       | /v2/{xuid}/gamercard       | This is the Gamercard information for a specified XUID|
+| presence        | /v2/{xuid}/presence        | This is the current presence information for a specified XUID|
+| activity        | /v2/{xuid}/activity        | This is the current activity information for a specified XUID|
+| recent_activity | /v2/{xuid}/activity/recent | This is the recent activity information for a specified XUID|
+| friends         | /v2/{xuid}/friends         | This is the friends information for a specified XUID|
+| followers       | /v2/{xuid}/followers       | This is the followers information for a specified XUID|
+| xbox360games    | /v2/{xuid}/xbox360games    | This is the Xbox 360 Games List for a specified XUID|
+| xboxonegames    | /v2/{xuid}/xboxonegames    | This is the Xbox One Games List for a specified XUID|
