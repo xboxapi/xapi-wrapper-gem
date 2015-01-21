@@ -11,7 +11,8 @@ module XboxApi
       :friends,
       :followers,
       :xbox360games,
-      :xboxonegames
+      :xboxonegames,
+      :game_clips
     ]
 
     def initialize(gamertag, client)
@@ -22,7 +23,7 @@ module XboxApi
 
     ENDPOINTS.each do |action|
       define_method( action ) do
-        endpoint = "#{xuid}/#{__method__}"
+        endpoint = "#{xuid}/#{__method__}".gsub("_", "-")
         client.fetch_body_and_parse( endpoint )
       end
     end
