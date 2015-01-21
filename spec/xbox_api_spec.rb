@@ -1,9 +1,11 @@
 require 'spec_helper'
 require 'vcr'
+require 'dotenv'
+Dotenv.load
 
 describe XboxApi do
 
-let(:token)  {File.read('./.env').chomp.split(" ")[1]}
+let(:token)  {ENV['XBOX_TOKEN']}
 let(:client) {XboxApi::Client.new(token)}
 let(:gamer)  {  VCR.use_cassette("gamer") { client.gamer("audibleblink") }  }
 
