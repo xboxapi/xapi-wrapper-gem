@@ -38,17 +38,10 @@ let(:gamer)  {  VCR.use_cassette("gamer") { client.gamer("audibleblink") }  }
         end
       end
 
-      xit "returns 'Online' for an online player" do
+      it "returns 'Online' for an online player" do
         VCR.use_cassette("presence_online") do
           response = gamer.presence
           expect(response[:state]).to eq "Online"
-        end
-      end
-
-      xit "returns 'Away' for an away player" do
-        VCR.use_cassette("presence_away") do
-          response = gamer.presence
-          expect(response[:state]).to eq "Away"
         end
       end
     end

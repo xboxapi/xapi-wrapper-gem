@@ -33,15 +33,15 @@ http_interactions:
       cache-control:
       - no-cache
       date:
-      - Tue, 20 Jan 2015 20:58:47 GMT
+      - Wed, 21 Jan 2015 04:33:48 GMT
       access-control-allow-origin:
       - "*"
       x-ratelimit-limit:
       - '120'
       x-ratelimit-remaining:
-      - '87'
+      - '109'
       x-ratelimit-reset:
-      - '74'
+      - '1572'
       access-control-allow-headers:
       - content-type, content-length, x-auth, accept-encoding, accept, user-agent,
         host, Origin, Access-Control-Allow-Origin, Access-Control-Request-Method,
@@ -50,5 +50,5 @@ http_interactions:
       encoding: UTF-8
       string: '{"xuid":2533274810770211,"gamerTag":"audibleBLiNK","gamertag":"audibleBLiNK"}'
     http_version: '1.1'
-  recorded_at: Tue, 20 Jan 2015 20:58:46 GMT
+  recorded_at: Wed, 21 Jan 2015 04:33:48 GMT
 recorded_with: VCR 2.9.3
