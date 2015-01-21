@@ -1,0 +1,61 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://xboxapi.com/v2/2533274810770211/xboxonegames
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      x-auth:
+      - e0662396178e32b0ea6c1f36c842a2b96b3bfb3d
+      accept-encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      accept:
+      - "*/*"
+      user-agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      server:
+      - nginx/1.6.2
+      content-type:
+      - application/json
+      transfer-encoding:
+      - chunked
+      connection:
+      - keep-alive
+      x-powered-by:
+      - PHP/5.5.20-1+deb.sury.org~trusty+1
+      cache-control:
+      - no-cache
+      date:
+      - Wed, 21 Jan 2015 15:57:06 GMT
+      access-control-allow-origin:
+      - "*"
+      x-ratelimit-limit:
+      - '120'
+      x-ratelimit-remaining:
+      - '108'
+      x-ratelimit-reset:
+      - '174'
+      access-control-allow-headers:
+      - content-type, content-length, x-auth, accept-encoding, accept, user-agent,
+        host, Origin, Access-Control-Allow-Origin, Access-Control-Request-Method,
+        Access-Control-Request-Headers, X-Auth
+    body:
+      encoding: UTF-8
+      string: '{"titles":[{"lastUnlock":"2014-12-27T03:55:37.8867584Z","titleId":122001257,"serviceConfigId":"64c10100-3d40-49d5-8f1c-c99807459769","titleType":"LiveApp","platform":"Durango","name":"YouTube","earnedAchievements":1,"currentGamerscore":0,"maxGamerscore":0},{"lastUnlock":"2014-09-30T01:56:42.8026961Z","titleId":247546985,"serviceConfigId":"37770100-f9ae-4b80-9dad-7c1d0ec14469","titleType":"DGame","platform":"Durango","name":"Destiny","earnedAchievements":8,"currentGamerscore":160,"maxGamerscore":1000},{"lastUnlock":"2014-12-27T03:46:01.2307618Z","titleId":327370029,"serviceConfigId":"595c0100-e535-40c1-93f6-a1b11383452d","titleType":"LiveApp","platform":"Durango","name":"Netflix","earnedAchievements":2,"currentGamerscore":0,"maxGamerscore":0},{"lastUnlock":"2014-12-28T06:47:21.5889830Z","titleId":398011207,"serviceConfigId":"dca20100-15e7-41fb-b299-64fc17b92b47","titleType":"DGame","platform":"Durango","name":"LIMBO","earnedAchievements":2,"currentGamerscore":170,"maxGamerscore":1000},{"lastUnlock":"2014-09-21T18:57:31.8813363Z","titleId":417034865,"serviceConfigId":"cc370100-2ce1-4b08-bd74-844818db7271","titleType":"LiveApp","platform":"Durango","name":"NFL
+        on Xbox One","earnedAchievements":3,"currentGamerscore":0,"maxGamerscore":0},{"lastUnlock":"2014-12-11T03:45:49.3881948Z","titleId":419416564,"serviceConfigId":"2cecd28f-3e7f-4239-9047-20d1511b3e08","titleType":"LiveApp","platform":"Durango","name":"Xbox
+        Music","earnedAchievements":1,"currentGamerscore":0,"maxGamerscore":0},{"lastUnlock":"2014-12-27T04:29:54.7320890Z","titleId":442736763,"serviceConfigId":"66eb0100-7c58-4350-b936-f9631a63a07b","titleType":"LiveApp","platform":"Durango","name":"Twitch","earnedAchievements":1,"currentGamerscore":0,"maxGamerscore":0},{"lastUnlock":"2014-12-08T06:25:43.3492757Z","titleId":874889576,"serviceConfigId":"502e0100-78e0-4fea-a178-e6a33425c168","titleType":"LiveApp","platform":"Durango","name":"Amazon
+        Instant Video","earnedAchievements":4,"currentGamerscore":0,"maxGamerscore":0},{"lastUnlock":"2014-12-28T22:40:55.5682665Z","titleId":875417719,"serviceConfigId":"53290100-a465-4ad1-bcbb-e05d342dd077","titleType":"DGame","platform":"Durango","name":"Call
+        of Duty\u00ae: Advanced Warfare","earnedAchievements":6,"currentGamerscore":90,"maxGamerscore":1000},{"lastUnlock":"2014-09-21T18:25:45.9986986Z","titleId":1030770725,"serviceConfigId":"d21e9244-9bd8-49bf-b00e-605e586249a5","titleType":"LiveApp","platform":"Durango","name":"Xbox
+        Video","earnedAchievements":1,"currentGamerscore":0,"maxGamerscore":0},{"lastUnlock":"2014-11-30T06:02:43.7637935Z","titleId":1115757811,"serviceConfigId":"1b93183d-cd4b-46df-86d6-4a8e74fb244e","titleType":"DGame","platform":"Durango","name":"Alien:
+        Isolation","earnedAchievements":12,"currentGamerscore":145,"maxGamerscore":1000},{"lastUnlock":"2014-10-08T03:25:16.3708915Z","titleId":1285127818,"serviceConfigId":"eabb0100-ffce-45be-859d-7c7f4c997e8a","titleType":"DGame","platform":"Durango","name":"Chariot","earnedAchievements":1,"currentGamerscore":10,"maxGamerscore":1000},{"lastUnlock":"2014-11-02T17:21:55.1750633Z","titleId":1906672574,"serviceConfigId":"5674e1ad-ee96-444d-bedc-5ec795b1e772","titleType":"DGame","platform":"Durango","name":"Middle-earth\u2122:
+        Shadow of Mordor\u2122","earnedAchievements":34,"currentGamerscore":640,"maxGamerscore":1350}],"pagingInfo":{"continuationToken":null,"totalRecords":13}}'
+    http_version: '1.1'
+  recorded_at: Wed, 21 Jan 2015 15:57:07 GMT
+recorded_with: VCR 2.9.3

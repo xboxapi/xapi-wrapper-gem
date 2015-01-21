@@ -1,0 +1,147 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://xboxapi.com/v2/2533274810770211/xbox360games
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      x-auth:
+      - e0662396178e32b0ea6c1f36c842a2b96b3bfb3d
+      accept-encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      accept:
+      - "*/*"
+      user-agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      server:
+      - nginx/1.6.2
+      content-type:
+      - application/json
+      transfer-encoding:
+      - chunked
+      connection:
+      - keep-alive
+      x-powered-by:
+      - PHP/5.5.20-1+deb.sury.org~trusty+1
+      cache-control:
+      - no-cache
+      date:
+      - Wed, 21 Jan 2015 15:57:07 GMT
+      access-control-allow-origin:
+      - "*"
+      x-ratelimit-limit:
+      - '120'
+      x-ratelimit-remaining:
+      - '107'
+      x-ratelimit-reset:
+      - '173'
+      access-control-allow-headers:
+      - content-type, content-length, x-auth, accept-encoding, accept, user-agent,
+        host, Origin, Access-Control-Allow-Origin, Access-Control-Request-Method,
+        Access-Control-Request-Headers, X-Auth
+    body:
+      encoding: UTF-8
+      string: '{"titles":[{"lastPlayed":"2015-01-12T17:46:43.8200000Z","currentAchievements":0,"currentGamerscore":0,"sequence":514,"titleId":1314326481,"titleType":5,"platforms":[1],"name":"Amazon
+        Instant Video","totalAchievements":0,"totalGamerscore":0},{"lastPlayed":"2014-12-29T20:07:19.5170000Z","currentAchievements":0,"currentGamerscore":0,"sequence":512,"titleId":1313671164,"titleType":1,"platforms":[1],"name":"TEKKEN
+        6","totalAchievements":50,"totalGamerscore":1000},{"lastPlayed":"2014-11-11T01:38:01.4270000Z","currentAchievements":0,"currentGamerscore":0,"sequence":506,"titleId":1464076241,"titleType":5,"platforms":[1],"name":"Plex","totalAchievements":0,"totalGamerscore":0},{"lastPlayed":"2014-11-10T18:25:23.0200000Z","currentAchievements":5,"currentGamerscore":140,"sequence":505,"titleId":1480659612,"titleType":3,"platforms":[1],"name":"Virtua
+        Fighter 2","totalAchievements":12,"totalGamerscore":400},{"lastPlayed":"2014-11-05T18:25:22.2170000Z","currentAchievements":0,"currentGamerscore":0,"sequence":497,"titleId":1480657452,"titleType":3,"platforms":[1],"name":"SCOTT
+        PILGRIM THE GAME","totalAchievements":19,"totalGamerscore":300},{"lastPlayed":"2014-10-30T21:46:29.0670000Z","currentAchievements":0,"currentGamerscore":0,"sequence":490,"titleId":1481115739,"titleType":5,"platforms":[1],"name":"Xbox
+        Music and Video","totalAchievements":0,"totalGamerscore":0},{"lastPlayed":"2014-07-15T02:08:59.2770000Z","currentAchievements":10,"currentGamerscore":140,"sequence":488,"titleId":1096157379,"titleType":1,"platforms":[1],"name":"COD:
+        Black Ops II","totalAchievements":90,"totalGamerscore":2000},{"lastPlayed":"2014-06-11T01:29:28.1830000Z","currentAchievements":12,"currentGamerscore":345,"sequence":485,"titleId":1161890256,"titleType":1,"platforms":[1],"name":"Titanfall","totalAchievements":88,"totalGamerscore":2000},{"lastPlayed":"2014-02-28T23:28:51.3230000Z","currentAchievements":27,"currentGamerscore":480,"sequence":458,"titleId":1096157436,"titleType":1,"platforms":[1],"name":"Call
+        of Duty\u00ae: Ghosts","totalAchievements":91,"totalGamerscore":2000},{"lastPlayed":"2013-11-15T00:17:38.8330000Z","currentAchievements":0,"currentGamerscore":0,"sequence":248,"titleId":1110837201,"titleType":5,"platforms":[1],"name":"YouTube","totalAchievements":0,"totalGamerscore":0},{"lastPlayed":"2013-07-29T01:23:14.9400000Z","currentAchievements":0,"currentGamerscore":0,"sequence":242,"titleId":1481115776,"titleType":5,"platforms":[1],"name":"Internet
+        Explorer","totalAchievements":0,"totalGamerscore":0},{"lastPlayed":"2013-07-22T23:46:12.3130000Z","currentAchievements":0,"currentGamerscore":0,"sequence":226,"titleId":1479542737,"titleType":5,"platforms":[1],"name":"Machinima","totalAchievements":0,"totalGamerscore":0},{"lastPlayed":"2013-07-17T00:34:15.2300000Z","currentAchievements":6,"currentGamerscore":80,"sequence":2323,"titleId":1096157269,"titleType":1,"platforms":[1],"name":"Call
+        of Duty Black Ops","totalAchievements":71,"totalGamerscore":1700},{"lastPlayed":"2013-07-15T23:33:13.0200000Z","currentAchievements":25,"currentGamerscore":410,"sequence":2318,"titleId":1096157387,"titleType":1,"platforms":[1],"name":"Modern
+        Warfare\u00ae 3","totalAchievements":76,"totalGamerscore":1610},{"lastPlayed":"2013-06-15T03:40:39.0970000Z","currentAchievements":1,"currentGamerscore":20,"sequence":214,"titleId":1297287706,"titleType":1,"platforms":[1],"name":"Fable:
+        The Journey","totalAchievements":50,"totalGamerscore":1000},{"lastPlayed":"2013-06-13T01:00:28.7730000Z","currentAchievements":1,"currentGamerscore":20,"sequence":210,"titleId":1397819394,"titleType":1,"platforms":[1],"name":"Tomb
+        Raider","totalAchievements":50,"totalGamerscore":1000},{"lastPlayed":"2013-05-10T19:09:36.3230000Z","currentAchievements":1,"currentGamerscore":20,"sequence":198,"titleId":1263405113,"titleType":1,"platforms":[1],"name":"Birds
+        of Steel","totalAchievements":50,"totalGamerscore":1000},{"lastPlayed":"2013-05-10T02:50:54.3700000Z","currentAchievements":10,"currentGamerscore":95,"sequence":195,"titleId":1480657293,"titleType":3,"platforms":[1],"name":"Full
+        House Poker","totalAchievements":38,"totalGamerscore":500},{"lastPlayed":"2013-05-06T23:15:19.5400000Z","currentAchievements":0,"currentGamerscore":0,"sequence":193,"titleId":960956369,"titleType":5,"platforms":[1],"name":"Netflix","totalAchievements":0,"totalGamerscore":0},{"lastPlayed":"2013-05-06T22:49:36.1870000Z","currentAchievements":24,"currentGamerscore":450,"sequence":192,"titleId":1297287264,"titleType":1,"platforms":[1],"name":"Scene
+        It? BOS!","totalAchievements":58,"totalGamerscore":1250},{"lastPlayed":"2013-05-02T22:42:04.1670000Z","currentAchievements":21,"currentGamerscore":270,"sequence":189,"titleId":1096026071,"titleType":1,"platforms":[1],"name":"Catherine","totalAchievements":50,"totalGamerscore":1000},{"lastPlayed":"2013-04-29T21:23:05.9800000Z","currentAchievements":4,"currentGamerscore":40,"sequence":183,"titleId":1480657362,"titleType":3,"platforms":[1],"name":"Turtles
+        In Time RS","totalAchievements":12,"totalGamerscore":200},{"lastPlayed":"2013-04-29T20:31:15.1500000Z","currentAchievements":11,"currentGamerscore":265,"sequence":181,"titleId":1464993833,"titleType":1,"platforms":[1],"name":"Injustice","totalAchievements":50,"totalGamerscore":1000},{"lastPlayed":"2013-04-25T00:40:27.3130000Z","currentAchievements":19,"currentGamerscore":215,"sequence":179,"titleId":1414793176,"titleType":1,"platforms":[1],"name":"BioShock","totalAchievements":51,"totalGamerscore":1100},{"lastPlayed":"2013-04-24T07:30:20.4330000Z","currentAchievements":0,"currentGamerscore":0,"sequence":175,"titleId":1297287707,"titleType":5,"platforms":[1],"name":"Live
+        Event Player","totalAchievements":0,"totalGamerscore":0},{"lastPlayed":"2013-04-24T03:11:36.1030000Z","currentAchievements":26,"currentGamerscore":380,"sequence":173,"titleId":1414793309,"titleType":1,"platforms":[1],"name":"BioShock
+        Infinite","totalAchievements":80,"totalGamerscore":1695},{"lastPlayed":"2013-04-17T03:53:23.3000000Z","currentAchievements":2,"currentGamerscore":25,"sequence":148,"titleId":1415120849,"titleType":1,"platforms":[1],"name":"Defiance","totalAchievements":75,"totalGamerscore":1625},{"lastPlayed":"2013-04-13T04:17:54.9230000Z","currentAchievements":5,"currentGamerscore":40,"sequence":137,"titleId":1414596713,"titleType":1,"platforms":[1],"name":"YOU
+        DON''T KNOW JACK\u00ae","totalAchievements":60,"totalGamerscore":1500},{"lastPlayed":"2013-04-13T04:04:44.3430000Z","currentAchievements":1,"currentGamerscore":10,"sequence":134,"titleId":926091225,"titleType":1,"platforms":[1],"name":"Dance
+        Central 3","totalAchievements":45,"totalGamerscore":1000},{"lastPlayed":"2013-04-10T09:12:19.7730000Z","currentAchievements":1,"currentGamerscore":10,"sequence":128,"titleId":1431505070,"titleType":1,"platforms":[1],"name":"Assassin''s
+        Creed\u00ae III","totalAchievements":64,"totalGamerscore":1350},{"lastPlayed":"2013-03-12T03:04:21.8200000Z","currentAchievements":16,"currentGamerscore":200,"sequence":117,"titleId":1480659422,"titleType":3,"platforms":[1],"name":"The
+        Walking Dead","totalAchievements":48,"totalGamerscore":600},{"lastPlayed":"2013-03-12T02:54:45.5870000Z","currentAchievements":0,"currentGamerscore":0,"sequence":114,"titleId":1297287656,"titleType":5,"platforms":[1],"name":"UFC
+        on Xbox LIVE","totalAchievements":0,"totalGamerscore":0},{"lastPlayed":"2013-03-12T01:01:14.7900000Z","currentAchievements":8,"currentGamerscore":140,"sequence":105,"titleId":1480657079,"titleType":3,"platforms":[1],"name":"Castle
+        Crashers","totalAchievements":12,"totalGamerscore":200},{"lastPlayed":"2013-02-27T08:12:39.6670000Z","currentAchievements":0,"currentGamerscore":0,"sequence":13,"titleId":1480657060,"titleType":3,"platforms":[1],"name":"SuperStreetFighter2THD","totalAchievements":12,"totalGamerscore":200},{"lastPlayed":"2012-12-06T03:43:48.0570000Z","currentAchievements":31,"currentGamerscore":565,"sequence":1897,"titleId":1414793340,"titleType":1,"platforms":[1],"name":"Borderlands
+        2","totalAchievements":69,"totalGamerscore":1625},{"lastPlayed":"2012-08-24T01:46:03.5000000Z","currentAchievements":0,"currentGamerscore":0,"sequence":1495,"titleId":1480659546,"titleType":3,"platforms":[1],"name":"Counter-Strike:
+        GO","totalAchievements":12,"totalGamerscore":400},{"lastPlayed":"2012-08-06T04:18:33.4630000Z","currentAchievements":9,"currentGamerscore":115,"sequence":56,"titleId":1464993794,"titleType":1,"platforms":[1],"name":"Batman:
+        Arkham City\u2122","totalAchievements":70,"totalGamerscore":1500},{"lastPlayed":"2012-06-15T01:28:13.7300000Z","currentAchievements":0,"currentGamerscore":0,"sequence":1218,"titleId":1096157336,"titleType":1,"platforms":[1],"name":"Call
+        of Duty ELITE","totalAchievements":0,"totalGamerscore":0},{"lastPlayed":"2012-06-14T02:19:24.9000000Z","currentAchievements":0,"currentGamerscore":0,"sequence":31,"titleId":1194330065,"titleType":5,"platforms":[1],"name":"XFINITY","totalAchievements":0,"totalGamerscore":0},{"lastPlayed":"1753-01-01T00:00:00.0000000Z","currentAchievements":0,"currentGamerscore":0,"sequence":28,"titleId":1263405091,"titleType":1,"platforms":[1],"name":"Silent
+        Hill Downpour","totalAchievements":41,"totalGamerscore":1000},{"lastPlayed":"2012-04-21T22:59:10.1730000Z","currentAchievements":1,"currentGamerscore":10,"sequence":27,"titleId":1279330291,"titleType":1,"platforms":[1],"name":"LEGO\u00ae
+        Star Wars\u00ae III","totalAchievements":48,"totalGamerscore":1000},{"lastPlayed":"2012-04-14T22:31:22.4370000Z","currentAchievements":0,"currentGamerscore":0,"sequence":22,"titleId":1128466461,"titleType":1,"platforms":[1],"name":"Resident
+        Evil: ORC","totalAchievements":70,"totalGamerscore":1500},{"lastPlayed":"2012-04-01T18:04:19.3800000Z","currentAchievements":3,"currentGamerscore":35,"sequence":1036,"titleId":1480657509,"titleType":3,"platforms":[1,2],"name":"Gotham
+        City Impostors","totalAchievements":12,"totalGamerscore":200},{"lastPlayed":"2012-03-29T02:16:17.0330000Z","currentAchievements":2,"currentGamerscore":15,"sequence":19,"titleId":1313671229,"titleType":1,"platforms":[1],"name":"SOULCALIBUR
+        V","totalAchievements":50,"totalGamerscore":1000},{"lastPlayed":"2012-03-24T04:20:07.2900000Z","currentAchievements":2,"currentGamerscore":25,"sequence":991,"titleId":1480657239,"titleType":3,"platforms":[1],"name":"Call
+        of Duty Classic","totalAchievements":12,"totalGamerscore":200},{"lastPlayed":"2012-03-24T03:51:39.9600000Z","currentAchievements":14,"currentGamerscore":230,"sequence":16,"titleId":1431504864,"titleType":1,"platforms":[1],"name":"TC''s
+        EndWar","totalAchievements":60,"totalGamerscore":1220},{"lastPlayed":"2012-03-09T01:31:21.7930000Z","currentAchievements":0,"currentGamerscore":0,"sequence":8,"titleId":1498154961,"titleType":5,"platforms":[1],"name":"MSN
+        Video","totalAchievements":0,"totalGamerscore":0},{"lastPlayed":"2012-02-21T00:24:52.4830000Z","currentAchievements":2,"currentGamerscore":20,"sequence":2,"titleId":1480659450,"titleType":3,"platforms":[1],"name":"The
+        Simpsons\u2122 Arcade","totalAchievements":12,"totalGamerscore":200},{"lastPlayed":"2012-02-01T01:47:54.2930000Z","currentAchievements":31,"currentGamerscore":515,"sequence":873,"titleId":1096157207,"titleType":1,"platforms":[1],"name":"Modern
+        Warfare\u00ae 2","totalAchievements":50,"totalGamerscore":1000},{"lastPlayed":"2012-01-28T05:57:43.1630000Z","currentAchievements":35,"currentGamerscore":680,"sequence":844,"titleId":1414793191,"titleType":1,"platforms":[1],"name":"Borderlands","totalAchievements":80,"totalGamerscore":1750},{"lastPlayed":"2011-11-19T23:32:10.6500000Z","currentAchievements":50,"currentGamerscore":1000,"sequence":624,"titleId":1161890004,"titleType":1,"platforms":[1],"name":"Left
+        4 Dead 2","totalAchievements":65,"totalGamerscore":1500},{"lastPlayed":"2011-11-16T01:50:53.4800000Z","currentAchievements":13,"currentGamerscore":215,"sequence":612,"titleId":1161889897,"titleType":1,"platforms":[1,2],"name":"Rock
+        Band 2","totalAchievements":50,"totalGamerscore":1000},{"lastPlayed":"2011-10-08T19:49:56.6270000Z","currentAchievements":7,"currentGamerscore":100,"sequence":577,"titleId":1279330290,"titleType":1,"platforms":[1],"name":"Force
+        Unleashed II","totalAchievements":58,"totalGamerscore":1200},{"lastPlayed":"2011-09-19T02:31:15.6370000Z","currentAchievements":1,"currentGamerscore":5,"sequence":575,"titleId":1297287425,"titleType":1,"platforms":[1,2],"name":"Game
+        Room","totalAchievements":56,"totalGamerscore":1000},{"lastPlayed":"2011-01-03T01:06:19.9070000Z","currentAchievements":8,"currentGamerscore":140,"sequence":545,"titleId":1431504989,"titleType":1,"platforms":[1],"name":"AC
+        Brotherhood","totalAchievements":60,"totalGamerscore":1250},{"lastPlayed":"2010-12-22T05:58:37.9900000Z","currentAchievements":0,"currentGamerscore":0,"sequence":540,"titleId":1480657530,"titleType":3,"platforms":[1],"name":"Castlevania
+        HD","totalAchievements":12,"totalGamerscore":200},{"lastPlayed":"2010-10-03T21:23:45.8300000Z","currentAchievements":4,"currentGamerscore":55,"sequence":532,"titleId":1480657142,"titleType":3,"platforms":[1],"name":"Shadow
+        Complex","totalAchievements":12,"totalGamerscore":200},{"lastPlayed":"2010-03-07T01:02:29.0500000Z","currentAchievements":6,"currentGamerscore":85,"sequence":531,"titleId":1480657310,"titleType":3,"platforms":[1],"name":"Toy
+        Soldiers","totalAchievements":18,"totalGamerscore":300},{"lastPlayed":"2010-08-23T05:25:05.2070000Z","currentAchievements":8,"currentGamerscore":85,"sequence":521,"titleId":1480656967,"titleType":3,"platforms":[1],"name":"Castlevania:
+        SOTN","totalAchievements":12,"totalGamerscore":200},{"lastPlayed":"2010-08-16T02:07:30.1870000Z","currentAchievements":4,"currentGamerscore":30,"sequence":515,"titleId":1480656877,"titleType":3,"platforms":[1],"name":"Geometry
+        Wars Evolved","totalAchievements":12,"totalGamerscore":200},{"lastPlayed":"2010-07-23T03:32:25.0870000Z","currentAchievements":7,"currentGamerscore":65,"sequence":512,"titleId":1161889969,"titleType":1,"platforms":[1],"name":"The
+        Beatles: Rock Band","totalAchievements":50,"totalGamerscore":1000},{"lastPlayed":"2010-03-31T00:50:22.9470000Z","currentAchievements":12,"currentGamerscore":245,"sequence":263,"titleId":1397819364,"titleType":1,"platforms":[1],"name":"FINAL
+        FANTASY XIII","totalAchievements":35,"totalGamerscore":1000},{"lastPlayed":"2010-03-13T03:23:47.9870000Z","currentAchievements":13,"currentGamerscore":185,"sequence":245,"titleId":1161889999,"titleType":1,"platforms":[1],"name":"Dante''s
+        Inferno\u2122","totalAchievements":54,"totalGamerscore":1290},{"lastPlayed":"2010-02-08T05:29:12.2670000Z","currentAchievements":43,"currentGamerscore":800,"sequence":187,"titleId":1161889840,"titleType":1,"platforms":[1],"name":"Left
+        4 Dead","totalAchievements":65,"totalGamerscore":1500},{"lastPlayed":"2010-01-21T03:01:13.8670000Z","currentAchievements":4,"currentGamerscore":60,"sequence":148,"titleId":1481246673,"titleType":1,"platforms":[1],"name":"1
+        vs 100","totalAchievements":12,"totalGamerscore":200},{"lastPlayed":"2010-01-03T01:28:24.1670000Z","currentAchievements":9,"currentGamerscore":50,"sequence":126,"titleId":1161889807,"titleType":1,"platforms":[1],"name":"The
+        Orange Box","totalAchievements":99,"totalGamerscore":1000},{"lastPlayed":"2009-10-09T05:15:12.4900000Z","currentAchievements":0,"currentGamerscore":0,"sequence":51,"titleId":1480657281,"titleType":3,"platforms":[1],"name":"Family
+        Game Night","totalAchievements":91,"totalGamerscore":1850},{"lastPlayed":"2009-10-02T02:25:27.0500000Z","currentAchievements":15,"currentGamerscore":220,"sequence":49,"titleId":1297287287,"titleType":1,"platforms":[1],"name":"Halo
+        3: ODST","totalAchievements":47,"totalGamerscore":1000},{"lastPlayed":"1753-01-01T00:00:00.0000000Z","currentAchievements":2,"currentGamerscore":30,"sequence":47,"titleId":1396901860,"titleType":1,"platforms":[1],"name":"MINI
+        NINJAS\u2122","totalAchievements":35,"totalGamerscore":1000},{"lastPlayed":"2009-09-02T05:53:53.6500000Z","currentAchievements":2,"currentGamerscore":15,"sequence":399,"titleId":1096157248,"titleType":1,"platforms":[1],"name":"Guitar
+        Hero 5","totalAchievements":49,"totalGamerscore":1000},{"lastPlayed":"2009-08-26T02:36:37.8730000Z","currentAchievements":4,"currentGamerscore":35,"sequence":43,"titleId":1396901878,"titleType":1,"platforms":[1],"name":"Batman:
+        Arkham Asylum","totalAchievements":47,"totalGamerscore":1000},{"lastPlayed":"2009-03-14T03:04:38.6130000Z","currentAchievements":8,"currentGamerscore":100,"sequence":392,"titleId":1313671136,"titleType":1,"platforms":[1],"name":"Soulcalibur
+        IV","totalAchievements":50,"totalGamerscore":1000},{"lastPlayed":"2009-08-15T18:59:37.6900000Z","currentAchievements":3,"currentGamerscore":40,"sequence":390,"titleId":1128466401,"titleType":1,"platforms":[1],"name":"STREET
+        FIGHTER IV","totalAchievements":48,"totalGamerscore":1000},{"lastPlayed":"2009-07-28T01:13:34.7770000Z","currentAchievements":0,"currentGamerscore":0,"sequence":379,"titleId":1161889965,"titleType":1,"platforms":[1],"name":"TigerWoodsPGATOUR\u00ae
+        10","totalAchievements":29,"totalGamerscore":1000},{"lastPlayed":"2009-07-21T20:41:17.9970000Z","currentAchievements":35,"currentGamerscore":600,"sequence":371,"titleId":1431504908,"titleType":1,"platforms":[1],"name":"Prince
+        of Persia","totalAchievements":60,"totalGamerscore":1250},{"lastPlayed":"2009-07-03T21:12:39.9100000Z","currentAchievements":7,"currentGamerscore":95,"sequence":358,"titleId":1431504924,"titleType":1,"platforms":[1],"name":"Call
+        of Juarez: BiB","totalAchievements":47,"totalGamerscore":1000},{"lastPlayed":"2009-06-20T17:39:00.4270000Z","currentAchievements":24,"currentGamerscore":460,"sequence":340,"titleId":1229391860,"titleType":1,"platforms":[1,2],"name":"Ghostbusters","totalAchievements":50,"totalGamerscore":1000},{"lastPlayed":"2009-06-14T22:47:33.9570000Z","currentAchievements":0,"currentGamerscore":0,"sequence":335,"titleId":1161889777,"titleType":1,"platforms":[1],"name":"NBA
+        LIVE 07","totalAchievements":15,"totalGamerscore":1000},{"lastPlayed":"2009-06-11T05:01:18.3100000Z","currentAchievements":12,"currentGamerscore":200,"sequence":329,"titleId":1161889874,"titleType":1,"platforms":[1],"name":"LOTR:
+        Conquest","totalAchievements":47,"totalGamerscore":1000},{"lastPlayed":"2009-06-11T05:19:34.6070000Z","currentAchievements":4,"currentGamerscore":55,"sequence":31,"titleId":1480656883,"titleType":3,"platforms":[1],"name":"UNO","totalAchievements":12,"totalGamerscore":200},{"lastPlayed":"2009-06-06T19:34:09.7000000Z","currentAchievements":5,"currentGamerscore":50,"sequence":324,"titleId":1179846617,"titleType":1,"platforms":[1],"name":"NINJA
+        BLADE","totalAchievements":50,"totalGamerscore":1000},{"lastPlayed":"2009-06-06T16:47:14.6500000Z","currentAchievements":2,"currentGamerscore":30,"sequence":29,"titleId":1414596650,"titleType":1,"platforms":[1],"name":"UFC
+        2009 Undisputed","totalAchievements":30,"totalGamerscore":1000},{"lastPlayed":"2009-06-04T18:09:02.7570000Z","currentAchievements":11,"currentGamerscore":170,"sequence":28,"titleId":1096157206,"titleType":1,"platforms":[1],"name":"XMen
+        Origins Wolverine","totalAchievements":50,"totalGamerscore":1000},{"lastPlayed":"2009-04-24T23:17:43.6870000Z","currentAchievements":0,"currentGamerscore":0,"sequence":27,"titleId":1414596664,"titleType":1,"platforms":[1],"name":"WWE
+        Legends","totalAchievements":19,"totalGamerscore":1000},{"lastPlayed":"2009-04-21T18:28:13.2400000Z","currentAchievements":10,"currentGamerscore":405,"sequence":26,"titleId":1297287142,"titleType":1,"platforms":[1],"name":"Halo
+        3","totalAchievements":79,"totalGamerscore":1750},{"lastPlayed":"2009-04-20T23:45:29.7070000Z","currentAchievements":9,"currentGamerscore":110,"sequence":25,"titleId":1297287213,"titleType":1,"platforms":[1,2],"name":"Gears
+        of War 2","totalAchievements":79,"totalGamerscore":1750},{"lastPlayed":"2009-04-11T08:24:48.4530000Z","currentAchievements":5,"currentGamerscore":30,"sequence":24,"titleId":1096157232,"titleType":1,"platforms":[1],"name":"Guitar
+        Hero Metallica","totalAchievements":50,"totalGamerscore":1000},{"lastPlayed":"2009-03-26T02:47:13.3530000Z","currentAchievements":3,"currentGamerscore":35,"sequence":306,"titleId":1431504918,"titleType":1,"platforms":[1],"name":"TC\u2019s
+        H.A.W.X","totalAchievements":50,"totalGamerscore":1000},{"lastPlayed":"2009-03-24T04:03:43.6930000Z","currentAchievements":21,"currentGamerscore":315,"sequence":22,"titleId":1128466388,"titleType":1,"platforms":[1],"name":"RESIDENT
+        EVIL 5","totalAchievements":70,"totalGamerscore":1400},{"lastPlayed":"2009-03-17T16:20:21.8500000Z","currentAchievements":0,"currentGamerscore":0,"sequence":21,"titleId":1096157175,"titleType":1,"platforms":[1],"name":"Guitar
+        Hero III","totalAchievements":59,"totalGamerscore":1000},{"lastPlayed":"2009-02-25T21:46:25.0500000Z","currentAchievements":17,"currentGamerscore":330,"sequence":20,"titleId":1096157158,"titleType":1,"platforms":[1],"name":"Call
+        of Duty 4","totalAchievements":37,"totalGamerscore":1000},{"lastPlayed":"2009-02-23T23:34:41.5600000Z","currentAchievements":8,"currentGamerscore":120,"sequence":19,"titleId":1464993747,"titleType":1,"platforms":[1],"name":"F.E.A.R.
+        2","totalAchievements":58,"totalGamerscore":1230},{"lastPlayed":"2009-02-11T02:12:05.2630000Z","currentAchievements":3,"currentGamerscore":50,"sequence":18,"titleId":1096157205,"titleType":1,"platforms":[1],"name":"Spidey:
+        Web of Shadows","totalAchievements":45,"totalGamerscore":1000},{"lastPlayed":"2009-02-08T21:15:03.1630000Z","currentAchievements":5,"currentGamerscore":35,"sequence":17,"titleId":1313671128,"titleType":1,"platforms":[1],"name":"AFRO
+        SAMURAI","totalAchievements":48,"totalGamerscore":1000},{"lastPlayed":"2009-02-08T08:44:07.0500000Z","currentAchievements":4,"currentGamerscore":60,"sequence":16,"titleId":1161889929,"titleType":1,"platforms":[1],"name":"AC\/DC
+        LIVE: Rock Band","totalAchievements":12,"totalGamerscore":250},{"lastPlayed":"2009-02-07T03:03:40.0370000Z","currentAchievements":3,"currentGamerscore":15,"sequence":15,"titleId":1297287146,"titleType":1,"platforms":[1],"name":"Forza
+        Motorsport 2","totalAchievements":44,"totalGamerscore":1000},{"lastPlayed":"2009-01-19T04:02:30.9330000Z","currentAchievements":8,"currentGamerscore":85,"sequence":208,"titleId":1096157146,"titleType":1,"platforms":[1],"name":"Marvel
+        Ult. Alliance","totalAchievements":58,"totalGamerscore":1250},{"lastPlayed":"2008-12-12T20:20:03.0430000Z","currentAchievements":17,"currentGamerscore":315,"sequence":199,"titleId":1161889872,"titleType":1,"platforms":[1],"name":"Mirror''s
+        Edge\u2122","totalAchievements":50,"totalGamerscore":1250},{"lastPlayed":"2009-01-03T03:04:27.7000000Z","currentAchievements":0,"currentGamerscore":0,"sequence":153,"titleId":1161889833,"titleType":1,"platforms":[1],"name":"Rock
+        Band","totalAchievements":50,"totalGamerscore":1000},{"lastPlayed":"2008-12-25T23:28:19.3030000Z","currentAchievements":23,"currentGamerscore":190,"sequence":144,"titleId":1413679061,"titleType":1,"platforms":[1],"name":"NINJA
+        GAIDEN 2","totalAchievements":70,"totalGamerscore":1250},{"lastPlayed":"2008-12-08T06:43:56.0700000Z","currentAchievements":0,"currentGamerscore":0,"sequence":110,"titleId":1161889758,"titleType":1,"platforms":[1],"name":"EA
+        SPORTS FN 3","totalAchievements":8,"totalGamerscore":1000},{"lastPlayed":"2008-12-04T04:02:09.4100000Z","currentAchievements":5,"currentGamerscore":90,"sequence":100,"titleId":1297287153,"titleType":1,"platforms":[1],"name":"Fable
+        II","totalAchievements":66,"totalGamerscore":1350},{"lastPlayed":"2008-11-20T05:35:03.2330000Z","currentAchievements":17,"currentGamerscore":365,"sequence":6,"titleId":1431504852,"titleType":1,"platforms":[1],"name":"Assassin''s
+        Creed","totalAchievements":44,"totalGamerscore":1000},{"lastPlayed":"2008-09-28T17:03:49.4270000Z","currentAchievements":26,"currentGamerscore":450,"sequence":5,"titleId":1279330258,"titleType":1,"platforms":[1],"name":"The
+        Force Unleashed","totalAchievements":59,"totalGamerscore":1345},{"lastPlayed":"2008-06-26T23:40:21.4870000Z","currentAchievements":11,"currentGamerscore":185,"sequence":25,"titleId":1161889785,"titleType":1,"platforms":[1],"name":"Battlefield:
+        Bad Co.","totalAchievements":50,"totalGamerscore":1000},{"lastPlayed":"2008-05-10T08:56:55.9470000Z","currentAchievements":5,"currentGamerscore":70,"sequence":3,"titleId":1414793202,"titleType":1,"platforms":[1],"name":"GTA
+        IV","totalAchievements":65,"totalGamerscore":1500},{"lastPlayed":"1753-01-01T00:00:00.0000000Z","currentAchievements":1,"currentGamerscore":25,"sequence":2,"titleId":1297287144,"titleType":1,"platforms":[1],"name":"Mass
+        Effect","totalAchievements":49,"totalGamerscore":1200}],"pagingInfo":{"continuationToken":null,"totalRecords":107},"version":"2015-01-21T15:57:07.5230000Z"}'
+    http_version: '1.1'
+  recorded_at: Wed, 21 Jan 2015 15:57:07 GMT
+recorded_with: VCR 2.9.3

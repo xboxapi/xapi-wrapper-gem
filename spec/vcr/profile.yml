@@ -1,0 +1,54 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://xboxapi.com/v2/2533274810770211/profile
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      x-auth:
+      - e0662396178e32b0ea6c1f36c842a2b96b3bfb3d
+      accept-encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      accept:
+      - "*/*"
+      user-agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      server:
+      - nginx/1.6.2
+      content-type:
+      - application/json
+      transfer-encoding:
+      - chunked
+      connection:
+      - keep-alive
+      x-powered-by:
+      - PHP/5.5.20-1+deb.sury.org~trusty+1
+      cache-control:
+      - no-cache
+      date:
+      - Wed, 21 Jan 2015 15:57:04 GMT
+      access-control-allow-origin:
+      - "*"
+      x-ratelimit-limit:
+      - '120'
+      x-ratelimit-remaining:
+      - '110'
+      x-ratelimit-reset:
+      - '176'
+      access-control-allow-headers:
+      - content-type, content-length, x-auth, accept-encoding, accept, user-agent,
+        host, Origin, Access-Control-Allow-Origin, Access-Control-Request-Method,
+        Access-Control-Request-Headers, X-Auth
+    body:
+      encoding: UTF-8
+      string: '{"id":2533274810770211,"hostId":null,"Gamertag":"audibleBLiNK","GameDisplayName":"audibleBLiNK","AppDisplayName":"audibleBLiNK","Gamerscore":15720,"GameDisplayPicRaw":"http:\/\/images-eds.xboxlive.com\/image?url=mHGRD8KXEf2sp2LC58XhBQKNl2IWRp.J.q8mSURKUUdaZjeQHY59fCTQrPSqFh7bVQEHYk6Quk07g7FT7ah5E4fFOq..pkgrzRv6HrSan8o-&background=0xababab&format=png","AppDisplayPicRaw":"http:\/\/images-eds.xboxlive.com\/image?url=mHGRD8KXEf2sp2LC58XhBQKNl2IWRp.J.q8mSURKUUdaZjeQHY59fCTQrPSqFh7bVQEHYk6Quk07g7FT7ah5E4fFOq..pkgrzRv6HrSan8o-&background=0xababab&format=png","AccountTier":"Gold","XboxOneRep":"GoodPlayer","PreferredColor":"http:\/\/dlassets.xboxlive.com\/public\/content\/ppl\/colors\/00001.json","TenureLevel":6,"isSponsoredUser":false}'
+    http_version: '1.1'
+  recorded_at: Wed, 21 Jan 2015 15:57:04 GMT
+recorded_with: VCR 2.9.3

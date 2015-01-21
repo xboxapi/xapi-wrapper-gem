@@ -1,0 +1,56 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://xboxapi.com/v2/2533274810770211/gamercard
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      x-auth:
+      - e0662396178e32b0ea6c1f36c842a2b96b3bfb3d
+      accept-encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      accept:
+      - "*/*"
+      user-agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      server:
+      - nginx/1.6.2
+      content-type:
+      - application/json
+      transfer-encoding:
+      - chunked
+      connection:
+      - keep-alive
+      x-powered-by:
+      - PHP/5.5.20-1+deb.sury.org~trusty+1
+      cache-control:
+      - no-cache
+      date:
+      - Wed, 21 Jan 2015 15:57:00 GMT
+      access-control-allow-origin:
+      - "*"
+      x-ratelimit-limit:
+      - '120'
+      x-ratelimit-remaining:
+      - '112'
+      x-ratelimit-reset:
+      - '180'
+      access-control-allow-headers:
+      - content-type, content-length, x-auth, accept-encoding, accept, user-agent,
+        host, Origin, Access-Control-Allow-Origin, Access-Control-Request-Method,
+        Access-Control-Request-Headers, X-Auth
+    body:
+      encoding: UTF-8
+      string: '{"gamertag":"audibleBLiNK","name":"L. Lawliet","location":"westofnuketown.com","bio":"Things
+        have been OK for me except that I''m a zombie now. ","gamerscore":15720,"tier":"Gold","motto":"I
+        cr0wn Witches.","avatarBodyImagePath":"http:\/\/avatar.xboxlive.com\/avatar\/audibleBLiNK\/avatar-body.png","gamerpicSmallImagePath":"http:\/\/image.xboxlive.com\/global\/t.584108b7\/tile\/0\/1000d","gamerpicLargeImagePath":"http:\/\/image.xboxlive.com\/global\/t.584108b7\/tile\/0\/2000d","gamerpicSmallSslImagePath":"https:\/\/image-ssl.xboxlive.com\/global\/t.584108b7\/tile\/0\/1000d","gamerpicLargeSslImagePath":"https:\/\/image-ssl.xboxlive.com\/global\/t.584108b7\/tile\/0\/2000d","avatarManifest":"AAAAAAAAAAA\/AAAAABAAAAMeAAPByPEJoZyy4AAIAAADJQADwcjxCaGcsuAAIAAAAzcAA8HI8QmhnLLgAACAAAL6AAPByPEJoZyy4AAAAAAAAAAAAAAAAAAAAAAAACAAApgAA8HI8QmhnLLgAAAAAAAAAAAAAAAAAAAAAAAAQAACZwADwcjxCaGcsuAAAAAAAAAAAAAAAAAAAAAAAAEAAALUAAHByPEJoZyy4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAADDQADwcjxCaGcsuAAAAAAAAAAAAAAAAAAAAAA\/76HSf8NDQ3\/78KL\/1s1Hv9JNCH\/xUlt\/0k0If+qHSb\/qh0mAAAAAgAAAAHByPEJoZyy4AACAAAAAAAAAAAAAAAAAAAAAAABAAIAA8HI8QmhnLLgAAEAAAAAAAAAAAAAAAAAAAAAEAAqcaIDxZY8wUFWCBcQAAAAAAAAAAAAAAAAAAAAAAAAEACZAAHByPEJoZyy4AAQAAAAAAAAAAAAAAAAAAAAAAAIAAKRscgM9N1FQQjUAAgAAAAAAAAAAAAAAAAAAAAAACAANAABwcjxCaGcsuAAIAAAAAAAAAAAAAAAAAAAAAABAAC9AAHByPEJoZyy4AEAAAAAAAAAAAAAAAAAAAAAAAIAAN4AAcHI8QmhnLLgAgAAAAAAAAAAAAAAAAAAAAAAAAQB3gADwcjxCaGcsuAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAA3AAHByPEJoZyy4AAgAAAAAAAAAAAAAAAAAAAAAAAQAJoAAcHI8QmhnLLgABAAAAAAAAAAAAAAAAAAAAAAAAgABAHxwQ5ouUVBCNQACAAAAAAAAAAAAAAAAAAAAAAABAHeAAPByPEJoZyy4AAEAAAAAAAAAAAAAAAAAADgAAFK+tohZwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="}'
+    http_version: '1.1'
+  recorded_at: Wed, 21 Jan 2015 15:57:01 GMT
+recorded_with: VCR 2.9.3
