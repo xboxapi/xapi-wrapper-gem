@@ -2,7 +2,7 @@ require 'dotenv'; Dotenv.load
 require 'codeclimate-test-reporter'; CodeClimate::TestReporter.start
 require 'xbox-api'
 require 'vcr'
-require 'fakeweb'
+require 'webmock'
 require 'vcr'
 
 
