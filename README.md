@@ -1,5 +1,7 @@
+[![Test Coverage](https://codeclimate.com/github/audibleblink/xbox-api/badges/coverage.svg)](https://codeclimate.com/github/audibleblink/xbox-api)  
 ![](https://circleci.com/gh/audibleblink/xbox-api.svg?style=shield&circle-token=:circle-token)  
-[![Code Climate](https://codeclimate.com/github/audibleblink/xbox-api/badges/gpa.svg)](https://codeclimate.com/github/audibleblink/xbox-api)
+[![Code Climate](https://codeclimate.com/github/audibleblink/xbox-api/badges/gpa.svg)](https://codeclimate.com/github/audibleblink/xbox-api)  
+
 
 # Desciption
 
@@ -52,3 +54,4 @@ live.calls_remaining
 | followers       | /v2/{xuid}/followers       | This is the followers information for a specified XUID|
 | xbox360games    | /v2/{xuid}/xbox360games    | This is the Xbox 360 Games List for a specified XUID|
 | xboxonegames    | /v2/{xuid}/xboxonegames    | This is the Xbox One Games List for a specified XUID|
+| game_clips      | /v2/{xuid}/game-clips      | This is the current collection of clips for a specified XUID|
