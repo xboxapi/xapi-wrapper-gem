@@ -1,3 +1,5 @@
+![](https://circleci.com/gh/audibleblink/xbox-api.png?circle-token=:circle-token)
+
 # Desciption
 
 This is a Ruby wrapper for the unofficial Xbox API located at http://xboxapi.com
@@ -27,7 +29,7 @@ logan.presence
 logan.gamercard
 ```
 
-The client also respond to `#calls_emaining`
+The client also respond to `#calls_remaining`
 
 ```ruby
 live.calls_remaining
