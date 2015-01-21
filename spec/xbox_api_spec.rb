@@ -1,7 +1,4 @@
 require 'spec_helper'
-require 'vcr'
-require 'dotenv'
-Dotenv.load
 
 describe XboxApi do
 
