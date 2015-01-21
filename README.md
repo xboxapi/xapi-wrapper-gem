@@ -1,4 +1,5 @@
-![](https://circleci.com/gh/audibleblink/xbox-api.png?circle-token=:circle-token)
+![](https://circleci.com/gh/audibleblink/xbox-api.svg?style=shield&circle-token=:circle-token)  
+[![Code Climate](https://codeclimate.com/github/audibleblink/xbox-api/badges/gpa.svg)](https://codeclimate.com/github/audibleblink/xbox-api)
 
 # Desciption
 
