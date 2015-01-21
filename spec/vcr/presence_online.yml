@@ -1,0 +1,55 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://xboxapi.com/v2/2533274810770211/presence
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      x-auth:
+      - e0662396178e32b0ea6c1f36c842a2b96b3bfb3d
+      accept-encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      accept:
+      - "*/*"
+      user-agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      server:
+      - nginx/1.6.2
+      content-type:
+      - application/json
+      transfer-encoding:
+      - chunked
+      connection:
+      - keep-alive
+      x-powered-by:
+      - PHP/5.5.20-1+deb.sury.org~trusty+1
+      cache-control:
+      - no-cache
+      date:
+      - Wed, 21 Jan 2015 04:33:49 GMT
+      access-control-allow-origin:
+      - "*"
+      x-ratelimit-limit:
+      - '120'
+      x-ratelimit-remaining:
+      - '108'
+      x-ratelimit-reset:
+      - '1571'
+      access-control-allow-headers:
+      - content-type, content-length, x-auth, accept-encoding, accept, user-agent,
+        host, Origin, Access-Control-Allow-Origin, Access-Control-Request-Method,
+        Access-Control-Request-Headers, X-Auth
+    body:
+      encoding: UTF-8
+      string: '{"xuid":2533274810770211,"state":"Online","devices":[{"type":"XboxOne","titles":[{"id":714681658,"name":"Home","placement":"Background","state":"Active","lastModified":"2015-01-21T04:31:07.4410859Z"},{"id":875417719,"name":"Call
+        of Duty\u00ae: Advanced Warfare","placement":"Full","state":"Active","lastModified":"2015-01-21T04:31:07.4410859Z"}]}]}'
+    http_version: '1.1'
+  recorded_at: Wed, 21 Jan 2015 04:33:49 GMT
+recorded_with: VCR 2.9.3
