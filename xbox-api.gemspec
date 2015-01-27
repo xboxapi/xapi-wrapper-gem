@@ -15,6 +15,7 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
   gem.version       = XboxApi::Wrapper::VERSION
 
+  gem.add_runtime_dependency("thor")
   gem.add_runtime_dependency("yajl-ruby")
   gem.add_development_dependency("rspec")
   gem.add_development_dependency("vcr")

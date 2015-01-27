@@ -13,6 +13,8 @@ This is a Ruby wrapper for the unofficial Xbox API located at http://xboxapi.com
 
 # Usage
 
+## Ruby Gem
+
 One must first create a client that is able to interface with the Xbox API.  
 The client takes one argument; your xbox API token.
 
@@ -50,6 +52,25 @@ If one already has a gamer's XUID, the API lookup normally required to fetch an 
 client = XboxApi::Client.new(ENV[:XBOX_TOKEN])
 logan = XboxApi::Gamer.new("oh hai loganz", client, "189823798746")
 ```
+
+## Commad Line
+
+The `xbl` binary may be invoked from the command line.
+
+`xbl -s theschoolmaster` or `xbl --status theschoolmaster` may be used to retreive the status of a given player
+
+If you have not yet supplied your API token from XboxApi.com, you will be prompted when trying to use `xbl`
+
+Additionally, you may clear and set you token with `xbl token`
+
+```sh
+# clear your token
+xbl token --clear
+
+# set or view your token
+xbl token
+```
+
 
 # The API
 
