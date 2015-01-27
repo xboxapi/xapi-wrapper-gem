@@ -34,7 +34,7 @@ module XboxApi
         end
         
       else
-        puts TokenHelper.token_exists? ? @token : TokenHelper.first_run
+        puts TokenHelper.token_exists? ? TokenHelper.get_local_token : TokenHelper.first_run
       end
     end
 
