@@ -145,4 +145,36 @@ let(:gamer)  { VCR.use_cassette("gamer") { client.gamer("audibleblink") } }
     end
   end
 
+  describe XboxApi::XboxLive do
+    context "#status" do
+      it "displays an status for a valid user" do
+        VCR.use_cassette("thor-status-valid") do
+          expect{system("xbl -s theschoolmaster")}.to output("").to_stdout
+        end
+      end
+
+      xit "prompts for token when none is present" do
+          XboxApi::TokenHelper.clear!
+          expect{system("xbl -s theschoolmaster")}.to output("XboxAPI Token:").to_stdout
+      end
+    end
+
+    context "#token" do
+      let(:token){"123123"}
+
+      it "displays a token" do
+          XboxApi::TokenHelper.write_local_token!(token)
+          output = `xbl token`.chomp
+          expect(output).to eq token
+      end
+
+      it "clears a token" do
+          XboxApi::TokenHelper.write_local_token!(token)
+          warning = `xbl token --clear`.chomp
+          expect(warning).to eq("Token deleted. Rerun `xbl token` to enter a new token")
+      end
+    end
+
+  end
+
 end
