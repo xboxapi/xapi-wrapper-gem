@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+require_relative "../lib/xbox-api"
+require_relative "../lib/xbox-api/xboxlive"
+# $thor_runner = true
+XboxApi::XboxLive.start(ARGV)
