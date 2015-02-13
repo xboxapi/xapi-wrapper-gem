@@ -34,7 +34,7 @@ module XboxApi
 
     def get_with_token(endpoint)
       request = URI.parse("#{base_url}/#{endpoint}")
-      open(request, "X-AUTH" => api_key)
+      open(request, "X-AUTH" => api_key, "User-Agent" => "Ruby/XboxApi Gem v#{XboxApi::Wrapper::VERSION}")
     end
 
     def fetch_headers
