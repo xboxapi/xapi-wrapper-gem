@@ -4,6 +4,8 @@ require "thor"
 
 require "xbox-api/version"
 require "xbox-api/client"
+require "xbox-api/game_data"
+require "xbox-api/game"
 require "xbox-api/gamer"
 require_relative "./xbox-api/xboxlive"
 # require "xbox-api/xboxlive"
