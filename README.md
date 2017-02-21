@@ -1,7 +1,6 @@
-[![Test Coverage](https://codeclimate.com/github/audibleblink/xbox-api/badges/coverage.svg)](https://codeclimate.com/github/audibleblink/xbox-api)  
-![](https://circleci.com/gh/audibleblink/xbox-api.svg?style=shield&circle-token=:circle-token)  
-[![Code Climate](https://codeclimate.com/github/audibleblink/xbox-api/badges/gpa.svg)](https://codeclimate.com/github/audibleblink/xbox-api)  
-
+[![Test Coverage](https://codeclimate.com/github/games-directory/api-xbox/badges/coverage.svg)](https://codeclimate.com/github/games-directory/api-xbox)  
+![](https://circleci.com/gh/games-directory/api-xbox.svg?style=shield&circle-token=:circle-token)  
+[![Code Climate](https://codeclimate.com/github/games-directory/api-xbox/badges/gpa.svg)](https://codeclimate.com/github/games-directory/api-xbox)  
 
 # Description
 
