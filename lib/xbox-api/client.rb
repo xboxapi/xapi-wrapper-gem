@@ -1,7 +1,5 @@
 module XboxApi
-
   class Client
-
     attr_reader :api_key, :base_url
 
     def initialize(api_key)
@@ -26,7 +24,7 @@ module XboxApi
       }
     end
 
-    private 
+    private
 
     def parse(json)
       Yajl::Parser.parse(json, symbolize_keys: true)
@@ -40,7 +38,5 @@ module XboxApi
     def fetch_headers
       get_with_token("accountXuid").meta
     end
-
   end
-
 end

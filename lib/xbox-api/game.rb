@@ -2,7 +2,7 @@ module XboxApi
   class Game
 
     attr_reader :xuid, :client, :title_id
-
+    
     ENDPOINTS = [
       :game_clips,
       :screenshots,

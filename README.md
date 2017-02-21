@@ -5,6 +5,16 @@
 
 # Description
 
+The gem covers 92% of the API, 92.10526315789474 to be more precise. Missing API
+resources are 'game-details/#{ productId }', 'game-details/#{ productId }/addons'
+and 'game-details/#{ productId }/related'
+
+The reason behind is because `productId` is only returned by querying
+`game-details-hex/{ game_id }` or `game-details/{ product_id }` . So, in order
+achieve 100% API coverage, one would have to query the API 2 times just to find
+out the Product ID for a given game. This is not a problem, but with limited API
+hits, one must be careful!
+
 This is a Ruby wrapper for the unofficial Xbox API located at http://xboxapi.com
 
 #Installation

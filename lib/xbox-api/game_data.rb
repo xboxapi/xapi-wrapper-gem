@@ -1,64 +1,89 @@
 module XboxApi
   class GameData
 
-    attr_reader :client, :param
+    attr_reader :client, :title_id
 
-    ENDPOINTS = [
+    DATA = [
       :game_clips,           # This is the saved game clips for a specified Game (titleId)
       :screenshots,          # This is the saved screenshots for a specified Game (titleId)
-      :game_details,         # This is the Xbox Game Information (using the product id)
-      :game_details_hex,     # This is the Xbox Game Information (using the game id in hex format)
-      :latest_xbox360_games, # This gets the latest Xbox 360 Games from the Xbox LIVE marketplace
-      :latest_xboxone_games, # This gets the latest Xbox One Apps from the Xbox LIVE marketplace
-      :xbox_gold_lounge      # These are the free "Games with Gold", and "Deals with Gold" from the Xbox LIVE marketplace
+      :game_details_hex      # This is the Xbox Game Information (using the game id in hex format)
     ]
 
-    def initialize(client, param)
+    LATEST = [
+      :latest_xbox360_games, # This gets the latest Xbox 360 Games from the Xbox LIVE marketplace
+      :latest_xboxone_games, # This gets the latest Xbox One Apps from the Xbox LIVE marketplace
+      :latest_xboxone_apps,  # This gets the latest Xbox One Apps from the Xbox LIVE marketplace
+      :xboxone_gold_lounge   # These are the free "Games with Gold", and "Deals with Gold" from the Xbox LIVE marketplace
+    ]
+
+    MARKETPLACE = [
+      :xbox360,              # Browse the Xbox LIVE marketplace for Xbox 360 content.
+      :games,                # Browse the Xbox LIVE marketplace for Xbox One Game content.
+      :apps                  # Browse the Xbox LIVE marketplace for Xbox One App content.
+    ]
+
+    def initialize(client, title_id)
       @client = client
-      @param  = param
+      @title_id = title_id
     end
 
-    ENDPOINTS.each do |action|
-      define_method( action ) do
-        endpoint = "#{__method__}/#{param}".gsub("_", "-")
+    DATA.each do |action|
+      define_method( action ) do |title_id = @title_id|
+        if action == :game_details_hex
+          title_id = convert_title_id_to_hex(title_id)
+        end
+
+        endpoint = "#{__method__}/#{title_id}".gsub("_", "-")
         client.fetch_body_and_parse( endpoint )
       end
     end
 
-    # Available sort_options params
-    #
-    # All Time Average Rating:   "allTimeAverageRating",
-    # All Time Play Count:       "allTimePlayCount",
-    # All Time Purchase Count:   "allTimePurchaseCount",
-    # All Time Rating Count:     "allTimeRatingCount",
-    # All Time Rental Count:     "allTimeRentalCount",
-    # All Time User Rating:      "allTimeUserRating",
-    # Critic Rating:             "criticRating",
-    # Digital Release Date:      "digitalReleaseDate",
-    # Free And Paid Count Daily: "freeAndPaidCountDaily",
-    # Most Popular:              "mostPopular",
-    # Paid Count All Time:       "paidCountAllTime",
-    # Paid Count Daily:          "paidCountDaily",
-    # Release Date:              "releaseDate",
-    # Seven Days Average Rating: "sevenDaysAverageRating",
-    # Seven Days Play Count:     "sevenDaysPlayCount",
-    # Seven Days Purchase Count: "sevenDaysPurchaseCount",
-    # Seven Days Rental Count:   "sevenDaysRentalCount",
-    # Seven Days Rating Count:   "sevenDaysRatingCount",
-    # User Rating:               "userRating"
+    LATEST.each do |action|
+      define_method( action ) do
+        endpoint = "#{__method__}".gsub("_", "-")
+        client.fetch_body_and_parse( endpoint )
+      end
+    end
 
-    # Browse the Xbox LIVE marketplace for Xbox One content.
-    #
-    def xbox_one_games(page, sort_type = 'releaseDate')
-      endpoint = "browse-xboxone/games/#{page}?sort=#{sort_type}"
+    SORT_OPTIONS = [
+      'allTimeAverageRating',
+      'allTimePlayCount',
+      'allTimePurchaseCount',
+      'allTimeRatingCount',
+      'allTimeRentalCount',
+      'allTimeUserRating',
+      'criticRating',
+      'digitalReleaseDate',
+      'freeAndPaidCountDaily',
+      'mostPopular',
+      'paidCountAllTime',
+      'paidCountDaily',
+      'releaseDate',
+      'sevenDaysAverageRating',
+      'sevenDaysPlayCount',
+      'sevenDaysPurchaseCount',
+      'sevenDaysRentalCount',
+      'sevenDaysRatingCount',
+      'userRating'
+    ]
+
+    def browse_marketplace(resource, params = {})
+      sort_by = params[:sort_by].nil? ? 'releaseDate' : params[:sort_by]
+      page = params[:page].nil? ? 1 : params[:page]
+
+      return "Resource '#{resource}' doesn't exist! Please use one of: #{MARKETPLACE.join(', ')}" unless MARKETPLACE.include? resource
+      return "Sort By '#{sort_by}' is not a valid Sortable Option! Please use one of: #{SORT_OPTIONS.join(', ')}" unless SORT_OPTIONS.include? sort_by
+
+      endpoint = "browse-marketplace/#{resource}/#{page}/?sort=#{sort_by}"
       client.fetch_body_and_parse( endpoint )
     end
 
-    # Browse the Xbox LIVE marketplace for Xbox One content.
-    #
-    def xbox_one_apps(page, sort_type = 'releaseDate')
-      endpoint = "browse-xboxone/apps/#{page}?sort=#{sort_type}"
-      client.fetch_body_and_parse( endpoint )
+  private
+
+    def convert_title_id_to_hex(title_id)
+      title_id = title_id.to_s(16)
+    rescue ArgumentError
+      title_id = sprintf('%02X', title_id)
     end
   end
 end
