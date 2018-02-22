@@ -5,8 +5,14 @@ module XboxApi
 
     DATA = [
       :game_clips,           # This is the saved game clips for a specified Game (titleId)
-      :screenshots,          # This is the saved screenshots for a specified Game (titleId)
-      :game_details_hex      # This is the Xbox Game Information (using the game id in hex format)
+      :screenshots,          # Screenshots For Specified Game 
+      :game_details,         # Xbox Game Information (Product ID) 
+      :game_details_hex      # Xbox Game Information (Game ID in HEX) 
+    ]
+
+    RESOURCES = [
+      :addons,               # Xbox Game Addon (DLC) Information (Product ID) 
+      :related               # Xbox Related Game Information (Product ID) 
     ]
 
     LATEST = [
@@ -33,14 +39,21 @@ module XboxApi
           title_id = convert_title_id_to_hex(title_id)
         end
 
-        endpoint = "#{__method__}/#{title_id}".gsub("_", "-")
+        endpoint = "#{ __method__ }/#{ title_id }".gsub("_", "-")
         client.fetch_body_and_parse( endpoint )
+      end
+    end
+
+    RESOURCES.each do |action|
+      define_method(action) do |product_id = @title_id, page: 1|
+        endpoint = "game-details/#{ product_id }/#{ __method__ }/#{ page }"
+        client.fetch_body_and_parse(endpoint)
       end
     end
 
     LATEST.each do |action|
       define_method( action ) do
-        endpoint = "#{__method__}".gsub("_", "-")
+        endpoint = "#{ __method__ }".gsub("_", "-")
         client.fetch_body_and_parse( endpoint )
       end
     end
