@@ -4,7 +4,7 @@ module XboxApi
 
     def initialize(api_key)
       @api_key = api_key
-      @base_url = "https://xboxapi.com/v2"
+      @base_url = "https://xapi.us/v2"
     end
 
     def gamer(tag)
